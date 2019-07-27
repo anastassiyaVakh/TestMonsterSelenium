@@ -1,19 +1,33 @@
+import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
 public class BaseUI {
     WebDriver driver;
+    WebDriverWait wait;
     String mainUrl = "https://www.monster.com/";
+    MainPage mainPage;
+    LoginPage loginPage;
+    SalaryPage salaryPage;
+    SignUpPage signUpPage;
+    UploadResumePage uploadResumePage;
 
 
 
     @BeforeMethod
-    public void setUp(){
+    public void setUp() {
 
-        System.setProperty ("webdriver.chrome.driver","chromedriver");
+        System.setProperty("webdriver.chrome.driver", "chromedriver");
         driver = new ChromeDriver();
+        wait = new WebDriverWait(driver, 20);
+        mainPage = new MainPage(driver, wait);
+        loginPage = new LoginPage(driver, wait);
+        salaryPage = new SalaryPage(driver, wait);
+        signUpPage = new SignUpPage(driver, wait);
+        uploadResumePage = new UploadResumePage(driver, wait);
         driver.manage().window().maximize();
         driver.get(mainUrl);
     }
@@ -23,8 +37,5 @@ public class BaseUI {
         driver.quit();
     }
 
-    //public static String generateNewNumber (String name, int length){
 
-       // return name + RandomStringUtils.random(length, "125466");
-   // }
 }

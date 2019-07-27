@@ -1,5 +1,6 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class SignUpTests extends BaseUI {
@@ -8,10 +9,20 @@ public class SignUpTests extends BaseUI {
     public void testSignUp(){
         WebElement linkSignUp = driver.findElement(Locators.LINK_SIGN_UP);
         linkSignUp.click();
+       // linkSignUp = driver.getCurrentUrl();
+        //System.out.println(currentUrlSignUp);
+       // Assert.assertEquals(currentUrlSignUp, Data.expectedUrlSignUp);
         //driver.findElement(Locators.TEXT_FIELD_EMAIL_SIGN_UP).sendKeys(Data.email);
 
         System.out.println(linkSignUp);
+        try {
+            Thread.sleep(3000);
+        }catch (InterruptedException e){
+            e.printStackTrace();
+        }
 
+        WebElement dropDownListSortBy = driver.findElement(Locators.DROP_DOWN_SORT_BY);
+        signUpPage.getDropDownListByValue(dropDownListSortBy, "date created");
     }
 
    /* @Test
