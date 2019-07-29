@@ -1,29 +1,29 @@
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import java.util.concurrent.TimeUnit;
 
 public class SignUpTests extends BaseUI {
 
     @Test
     public void testSignUp(){
-        WebElement linkSignUp = driver.findElement(Locators.LINK_SIGN_UP);
-        linkSignUp.click();
+         mainPage.clickSignUpButton();
+         signUpPage.completeSignUp();
        // linkSignUp = driver.getCurrentUrl();
         //System.out.println(currentUrlSignUp);
        // Assert.assertEquals(currentUrlSignUp, Data.expectedUrlSignUp);
-        //driver.findElement(Locators.TEXT_FIELD_EMAIL_SIGN_UP).sendKeys(Data.email);
 
-        System.out.println(linkSignUp);
+
+       /* System.out.println(linkSignUp);
         try {
             Thread.sleep(3000);
         }catch (InterruptedException e){
             e.printStackTrace();
-        }
+        }*/
 
-        WebElement dropDownListSortBy = driver.findElement(Locators.DROP_DOWN_SORT_BY);
+        /*WebElement dropDownListSortBy = driver.findElement(Locators.DROP_DOWN_SORT_BY);
         signUpPage.getDropDownListByValue(dropDownListSortBy, "date created");
-    }
+    }*/
 
    /* @Test
     public void testRadioButtons () {
@@ -38,5 +38,5 @@ public class SignUpTests extends BaseUI {
         //driver.findElement(By.cssSelector("#daySelect")).click();
         //driver.fintElement(By.xpath("//li[@data-handler='SelectDay'][//a[text()'='2']")).click();
 
-    }
+    }}
 
