@@ -1,7 +1,6 @@
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 import org.testng.annotations.Test;
-
-import java.util.concurrent.TimeUnit;
 
 public class SignUpTests extends BaseUI {
 
@@ -9,6 +8,13 @@ public class SignUpTests extends BaseUI {
     public void testSignUp(){
          mainPage.clickSignUpButton();
          signUpPage.completeSignUp();
+
+         WebElement radioButtonConfirmation = driver.findElement(Locators.RADIO_BUTTON_YES);
+         if (driver.findElement(Locators.RADIO_BUTTON_YES).isSelected()){
+             radioButtonConfirmation.click();
+         }else{
+             Assert.fail("Radio button is already selected");
+         }
        // linkSignUp = driver.getCurrentUrl();
         //System.out.println(currentUrlSignUp);
        // Assert.assertEquals(currentUrlSignUp, Data.expectedUrlSignUp);
