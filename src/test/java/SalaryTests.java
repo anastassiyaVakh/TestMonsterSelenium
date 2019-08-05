@@ -7,12 +7,11 @@ public class SalaryTests extends BaseUI {
 
 
     @Test
-    public  void testSalaryLink (){
+    public  void testSalaryLink1 (){
         Assert.assertTrue(driver.findElement(Locators.LINK_SALARY).isDisplayed(), "Element is not displayed");
         driver.findElement(Locators.LINK_SALARY).click();
         currentUrlSalary = driver.getCurrentUrl();
         System.out.println(currentUrlSalary);
-        //  Assert.assertEquals(currentUrlSalary, Data.expectedUrlSalary);
         softAssert.assertEquals(currentUrlSalary, Data.expectedUrlSalary, "URL is wrong");
         softAssert.assertAll();
 

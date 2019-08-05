@@ -1,4 +1,3 @@
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -9,6 +8,24 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Conditions extends BaseUI {
+
+
+
+
+
+    @Test
+    public void test18(){
+
+        //By link = By.xpath()
+        //mainPage.ajaxClick(driver.findElement(By.xpath("//a[@href='#']")));
+        //mainPage.ajaxClick(Locators.MAIN_NAVIGATION_MENU,1);
+
+        //mainPage.performClick(Locators.MAIN_NAVIGATION_MENU, 1);
+        mainPage.scrollToBottomOfPage();
+    }
+
+
+
     @Test
     public void test() {
         String fruit1 = "apple";
@@ -82,6 +99,67 @@ public class Conditions extends BaseUI {
 
     }
 
+    @Test
+    public void test10 () {
+        List<String> crunchifyList4 = new ArrayList(Arrays.asList("kiwi", "orange", "melon"));
+        crunchifyList4.add("apple");
+        System.out.println(crunchifyList4);
+
+        for (int i = 0; i < crunchifyList4.size(); i++) {
+            String element = crunchifyList4.get(i);
+
+            if (element.contains("me")) {
+                System.out.println("melon is inside list");
+            }
+
+        }
+
+    }
+
+    @Test
+    public void test11 () {
+        String phrase = "Melon is inside list";
+        List<String> crunchifyList4 = new ArrayList(Arrays.asList("kiwi", "orange", "melon", phrase));
+        crunchifyList4.add("apple");
+        System.out.println(crunchifyList4);
+
+        for (int i = 0; i < crunchifyList4.size(); i++) {
+            String element = crunchifyList4.get(i);
+            System.out.println("Iteration:"+ i);
+
+            if (element.contains("me")) {
+                System.out.println(phrase);
+                //continue;
+                break; //complete loop
+
+            }if (element.equals("orange")){
+                System.out.println("Orange");
+            }if(element.contains("i")){
+                System.out.println("IIIIII");
+            }
+            else {
+                System.out.println("Bad loop");
+            }
+
+        }
+
+    }
+
+    @Test
+    public void test12 () {
+        String phrase = "Melon is inside list";
+        List<String> crunchifyList4 = new ArrayList(Arrays.asList("kiwi", "orange", "melon", phrase));
+        crunchifyList4.add("apple");
+        System.out.println(crunchifyList4);
+
+        for (int i = 0; i < crunchifyList4.size(); i++) {
+            String element = crunchifyList4.get(i);
+            System.out.println("Iteration:"+ i);
+             continue;
+
+        }
+
+    }
 
     @Test
     public void test8 (){
@@ -90,23 +168,17 @@ public class Conditions extends BaseUI {
         System.out.println(sum);
         }
 
+     @Test
+    public void test9 (){
+        List<Integer> crunchifyList3 = new ArrayList<>(Arrays.asList(5,10,19));
+        crunchifyList3.add(10);
+         System.out.println(crunchifyList3.size());
 
-     /*   @Test
-      public void test9(){
-        List<WebElement> links = driver.findElements(By.xpath(("//ul//li")));
-        System.out.println(links.size());
-        for (int i=0; i <links.size(); i++){
-            String info = links.get((i)).getText();
-            System.out.println(info);
-
-            links.get(i).click();
-            driver.get(Data.MAIN_URL);
-            links = driver.findElements(By.xpath("//ul/li"));
-
-        }
-    }*/
-
-
+         for (int i=0; i<crunchifyList3.size(); i++){
+             int element =crunchifyList3.get(i);
+             System.out.println(element);
+         }
+     }
 
 
     }
