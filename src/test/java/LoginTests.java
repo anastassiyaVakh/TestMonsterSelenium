@@ -23,7 +23,7 @@ public class LoginTests extends BaseUI {
     @Test
     public void testSignUp(){
         loginPage.clickSignUpButton();
-        signUpPage.completeSignUp();
+        signUpPage.signUpStep1();
     }
     @Test
     public void testForgotPassword(){

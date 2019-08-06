@@ -79,7 +79,7 @@ public class Conditions extends BaseUI {
     @Test
     public void test6(){
         mainPage.clickLogInButton();
-        signUpPage.completeSignUp();
+        signUpPage.signUpStep1();
 
         WebElement checkbox = driver.findElement(Locators.RADIO_BUTTON_YES);
 

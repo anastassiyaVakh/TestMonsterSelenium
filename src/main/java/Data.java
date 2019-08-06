@@ -1,7 +1,7 @@
 public class Data {
 
     public static final String mainUrl = "https://www.monster.com/";
-    public static final String email = "Test14148797698768@gmail.com";
+    public static final String email = "Test354545457898768@gmail.com";
     public static final String password = "Tair2013!";
     public static final String expectedUrlSalary = "https://www.monster.com/salary/?intcid=skr_navigation_www_salary";
     public static final String nickname = "test566767m";
@@ -10,4 +10,9 @@ public class Data {
     public static final String expectedTitleCompanyProfiles = "Explore companies to find the best fit";
     public static final String expectedTitleSalary = "What Are You Worth?";
     public static final String expectedUrlUploadResume = "https://www.monster.com/resumes/post-resume2?landedFrom=Header&intcid=skr_navigation_www_post-resume2";
+
+    //Sign Up
+    public static final String firstName = "Mary";
+    public static final String lastName = "Trevelor";
+    public static final String zipCode = "02132";
 }

@@ -32,6 +32,17 @@ public class Locators {
    public static final By RADIO_BUTTON_YES = By.cssSelector("#OptiInEmailCarrerRelatedYes");
    public static final By RADIO_BUTTON_NO = By.cssSelector("#OptiInEmailCarrerRelatedNo");
    public static final By BUTTON_REGISTER = By.cssSelector("#btn-register");
+   public static final By TEXT_FIELD_FIRST_NAME = By.cssSelector("#FirstName");
+   public static final By TEXT_FIELD_LAST_NAME = By.cssSelector("#LastName");
+   public static final By DROPDOWN_COUNTRY = By.xpath("//select[@id='CountryID']");
+   public static final By TEXT_FIELD_ZIP_CODE = By.xpath("//input[@id='UserEnteredZipName']");
+   public static final By DROPDOWN_CAREER_LEVEL = By.xpath("//select[@id='CountryID']");
+   public static final By DROPDOWN_EDUCATION_LEVEL = By.xpath("//select[@id='EducationLevelID']");
+   public static final By BUTTON_NEXT = By.cssSelector("#btn-submit");
+   public static final By CHECKBOX_IS_SEARCHABLE = By.xpath("//input[@id='IsSearchable']");
+   public static final By DROPDOWN_WORK_AUTHORIZATION = By.xpath("//select[@id='WorkAuthorizationId']");
+   public static final By LINK_SKIP_FOR_NOW = By.xpath("//a[@class='skip']");
+
    //Salary
    public static final By LINK_SALARY = By.xpath("//a[@href='https://www.monster.com/salary/?intcid=skr_navigation_www_salary']");
 
