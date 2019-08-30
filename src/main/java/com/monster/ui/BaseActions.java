@@ -1,3 +1,5 @@
+package com.monster.ui;
+
 import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -38,7 +40,7 @@ public void clickUnselectedCheckbox(By checkbox){
         }
 }
 
-public void ajaxClick(WebElement element){ //java script executer
+public void ajaxClick(WebElement element){
     ((JavascriptExecutor) driver).executeScript ("arguments[0].scrollIntoView(true);", element);
     wait.until(ExpectedConditions.elementToBeClickable(element));
     element.click();

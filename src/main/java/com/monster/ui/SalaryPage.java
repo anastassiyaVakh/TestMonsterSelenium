@@ -1,7 +1,7 @@
-import org.openqa.selenium.By;
+package com.monster.ui;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import sun.jvm.hotspot.utilities.Assert;
 
 public class SalaryPage extends BaseActions {
 

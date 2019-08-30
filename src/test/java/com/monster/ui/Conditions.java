@@ -1,3 +1,5 @@
+package com.monster.ui;
+
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -12,6 +14,7 @@ public class Conditions extends BaseUI {
 
 
 
+/*
 
     @Test
     public void test18(){
@@ -180,6 +183,7 @@ public class Conditions extends BaseUI {
          }
      }
 
+*/
 
     }
 

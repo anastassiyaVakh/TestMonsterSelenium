@@ -1,3 +1,5 @@
+package com.monster.ui;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -57,8 +59,8 @@ public class BaseUI {
 
         wait = new WebDriverWait(driver, 20);
         mainPage = new MainPage(driver, wait);
-        loginPage = new LoginPage(driver, wait);
-        salaryPage = new SalaryPage(driver, wait);
+        loginPage = new LoginPage (driver, wait);
+        salaryPage = new SalaryPage (driver, wait);
         signUpPage = new SignUpPage(driver, wait);
         uploadResumePage = new UploadResumePage(driver, wait);
         driver.manage().window().maximize();

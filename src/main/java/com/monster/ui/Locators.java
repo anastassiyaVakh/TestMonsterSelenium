@@ -1,3 +1,5 @@
+package com.monster.ui;
+
 import org.openqa.selenium.By;
 
 public class Locators {
@@ -47,7 +49,7 @@ public class Locators {
    public static final By LINK_SALARY = By.xpath("//a[@href='https://www.monster.com/salary/?intcid=skr_navigation_www_salary']");
 
 
-   public static final By MAIN_NAVIGATION_MENU = By.xpath("//ul[@class='nav navbar-nav hidden-xs subnav-nav clearfix']//li[@class='dropdown']");
+   public static final By MAIN_NAVIGATION_MENU = By.xpath("//ul[@class='nav navbar-nav hidden-xs subnav-nav clearfix']");
    public static final By PAGE_TITLE_COMPANY_PROFILES = By.xpath("//h1[@class='hero_slogan']");
    public static final By PAGE_TITLE_SALARY = By.xpath ("/h1[contains(text(),'What Are You Worth?')]");
    public static final By LINK_BROWSE_ALL_COMPANIES = By.cssSelector("#browseAll");

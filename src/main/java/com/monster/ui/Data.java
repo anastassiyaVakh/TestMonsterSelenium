@@ -1,7 +1,9 @@
+package com.monster.ui;
+
 public class Data {
 
     public static final String mainUrl = "https://www.monster.com/";
-    public static final String email = "Test354545457898768@gmail.com";
+    public static final String email = "Test35667657898768@gmail.com";
     public static final String password = "Tair2013!";
     public static final String expectedUrlSalary = "https://www.monster.com/salary/?intcid=skr_navigation_www_salary";
     public static final String nickname = "test566767m";

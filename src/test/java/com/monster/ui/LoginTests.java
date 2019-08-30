@@ -1,3 +1,5 @@
+package com.monster.ui;
+
 import org.testng.annotations.Test;
 
 public class LoginTests extends BaseUI {
@@ -21,9 +23,9 @@ public class LoginTests extends BaseUI {
     }
 
     @Test
-    public void testSignUp(){
+    public void testSignUp(String email, String passsword){
         loginPage.clickSignUpButton();
-        signUpPage.signUpStep1();
+        signUpPage.signUpStep1(email,passsword);
     }
     @Test
     public void testForgotPassword(){

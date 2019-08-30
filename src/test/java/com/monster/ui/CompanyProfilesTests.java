@@ -1,3 +1,5 @@
+package com.monster.ui;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

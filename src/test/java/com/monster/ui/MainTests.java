@@ -1,4 +1,5 @@
-import org.openqa.selenium.By;
+package com.monster.ui;
+
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;

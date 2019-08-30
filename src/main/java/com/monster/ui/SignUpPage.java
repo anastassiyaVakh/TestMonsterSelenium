@@ -1,3 +1,5 @@
+package com.monster.ui;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -11,10 +13,10 @@ public class SignUpPage extends BaseActions {
 
 
 
-    public void signUpStep1() {
+    public void signUpStep1(String email, String password) {
         wait.until(ExpectedConditions.elementToBeClickable(Locators.TEXT_FIELD_EMAIL_SIGN_UP));
-        driver.findElement(Locators.TEXT_FIELD_EMAIL_SIGN_UP).sendKeys(Data.email);
-        driver.findElement(Locators.TEXT_FIELD_PASSWORD_SIGN_UP).sendKeys(Data.password);
+        driver.findElement(Locators.TEXT_FIELD_EMAIL_SIGN_UP).sendKeys(email);
+        driver.findElement(Locators.TEXT_FIELD_PASSWORD_SIGN_UP).sendKeys(password);
         WebElement radioButtonConfirmation = driver.findElement(Locators.RADIO_BUTTON_YES);
         if (!radioButtonConfirmation.isSelected()){
             radioButtonConfirmation.click();
@@ -24,15 +26,17 @@ public class SignUpPage extends BaseActions {
         driver.findElement(Locators.BUTTON_REGISTER).click();
     }
 
-    public void signUpStep2() {
+    public void signUpStep2(String firstname, String lastname) {
         wait.until(ExpectedConditions.elementToBeClickable(Locators.TEXT_FIELD_FIRST_NAME));
-        driver.findElement(Locators.TEXT_FIELD_FIRST_NAME).sendKeys(Data.firstName);
-        driver.findElement(Locators.TEXT_FIELD_LAST_NAME).sendKeys(Data.lastName);
+        driver.findElement(Locators.TEXT_FIELD_FIRST_NAME).sendKeys(firstname);
+        driver.findElement(Locators.TEXT_FIELD_LAST_NAME).sendKeys(lastname);
         WebElement dropdownListCountries = driver.findElement(Locators.DROPDOWN_COUNTRY);
         getDropDownListByValue(dropdownListCountries, "175");
         // driver.findElement(Locators.TEXT_FIELD_ZIP_CODE).sendKeys(Data.zipCode);
+
         WebElement dropdownListCareerLevel = driver.findElement(Locators.DROPDOWN_CAREER_LEVEL);
         getDropDownListByValue(dropdownListCareerLevel, "12");
+
         WebElement dropdownListEducationLevel = driver.findElement(Locators.DROPDOWN_EDUCATION_LEVEL);
         getDropDownListByValue(dropdownListEducationLevel, "9");
         driver.findElement(Locators.BUTTON_NEXT).click();
