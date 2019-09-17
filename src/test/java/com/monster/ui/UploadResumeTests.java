@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class UploadResumeTests extends BaseUI {
     String currentUrlUploadResume;
-    int indexLinkUploadResume =0;
+    int indexLinkUploadResume = 0;
 
     @Test
     public  void testUploadResume (){

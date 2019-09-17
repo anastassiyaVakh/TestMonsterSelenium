@@ -4,19 +4,25 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.util.concurrent.TimeUnit;
+
 public class MainPage extends BaseActions {
 
     public  MainPage(WebDriver driver, WebDriverWait wait){
         super(driver, wait);
     }
 
-
-    public void clickLogInButton(){
+    public void clickLogInlinkOnMainPage(){
+        driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
         driver.findElement(Locators.LINK_LOG_IN).click();
     }
+
     public void clickSignUpButton(){
+        driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
         driver.findElement(Locators.LINK_SIGN_UP).click();
     }
+
+
     public void clickAdvancedSearchButton(){
         driver.findElement(Locators.FIND_JOBS_BUTTON).click();
         wait.until(ExpectedConditions.elementToBeClickable(Locators.ADVANCED_SEARCH_LINK));

@@ -1,6 +1,4 @@
 package com.monster.ui;
-
-import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -19,10 +17,4 @@ public class SalaryTests extends BaseUI {
 
     }
 
-    public void validateAssertions(){
-        Assert.assertEquals("Web", "WEb is");
-        Assert.assertTrue(driver.findElement(By.xpath("//a")).isDisplayed(), "Element is not displayed");
-        Assert.fail("Element is not displayed");
-
-    }
 }

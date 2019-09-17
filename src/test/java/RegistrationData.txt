@@ -1,3 +1,0 @@
-testemail@gmail.com,passwOrd123,Jeremy,Isern
-testemail@hotmail.com,Winter123!,Mary,Stern
-testemail123@yahoo.com,Spring123,Tom,Carry

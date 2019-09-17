@@ -12,33 +12,45 @@ public class LoginPage extends BaseActions {
         super(driver, wait);
     }
 
-
-    public void signInWithEmail (){
-        driver.findElement(Locators.LINK_LOG_IN).click();
+    public void signInWithEmail (String email, String password){
         driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
-        driver.findElement(Locators.TEXT_FIELD_EMAIL_LOGIN).sendKeys(Data.email);
-        driver.findElement(Locators.TEXT_FIELD_PASSWORD_LOGIN).sendKeys(generateNewNumber(Data.nickname,10));
-
-        if (!driver.findElement(Locators.CHECKBOX_KEEP_ME_LOGGED_IN).isSelected()){
-            driver.findElement(Locators.CHECKBOX_KEEP_ME_LOGGED_IN).click();
-        }
-        driver.findElement(Locators.BUTTON_LOGIN).click();
+        driver.findElement(Locators.TEXT_FIELD_EMAIL).sendKeys(email);
+        driver.findElement(Locators.TEXT_FIELD_PASSWORD).sendKeys(password);
+        clickUnselectedCheckbox (Locators.CHECKBOX_KEEP_ME_LOGGED_IN);
     }
 
-    public void forgotPassword(){
+    public void clickContinueWithGoogleButton (){
+        wait.until (ExpectedConditions.elementToBeClickable (Locators.BUTTON_SIGN_IN_WITH_GOOGLE));
+        performClick (Locators.BUTTON_SIGN_IN_WITH_GOOGLE);
+    }
+
+    public void clickContinueWithFacebookButton (){
+        wait.until (ExpectedConditions.elementToBeClickable (Locators.BUTTON_SIGN_IN_WITH_FB));
+        performClick (Locators.BUTTON_SIGN_IN_WITH_FB);
+    }
+
+    public void clickLoginButton(){
+        wait.until (ExpectedConditions.elementToBeClickable (Locators.BUTTON_LOGIN));
+        driver.findElement (Locators.BUTTON_LOGIN).click ();
+    }
+
+
+    public void forgotPassword(String email){
         driver.findElement(Locators.LINK_FORGOT_PASSWORD).click();
-        driver.findElement(Locators.TEXT_FIELD_EMAIL_LOGIN).sendKeys(Data.email);
+        driver.findElement(Locators.TEXT_FIELD_EMAIL).sendKeys(email);
         driver.findElement(Locators.BUTTON_SEND_RESET_INSTRUCTION).click();
     }
 
-  public void forgotPasswordLinkIsDisplayed (){
-        wait.until(ExpectedConditions.visibilityOf(driver.findElement(Locators.LINK_FORGOT_PASSWORD)));
-        System.out.println("Forgot Password link is displayed");
-    }
     public void clickSignUpButton(){
         driver.findElement(Locators.ACCOUNT_BUTTON).click();
         wait.until(ExpectedConditions.elementToBeClickable(Locators.LINK_SIGN_UP));
         driver.findElement(Locators.LINK_SIGN_UP).click();
+    }
+
+    public void signOut(){
+        driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+        driver.findElement (Locators.ACCOUNT_BUTTON).click ();
+        driver.findElement (Locators.BUTTON_LOG_OUT).click ();
     }
 
 }
