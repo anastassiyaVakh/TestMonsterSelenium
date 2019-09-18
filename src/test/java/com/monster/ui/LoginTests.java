@@ -1,5 +1,6 @@
 package com.monster.ui;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -96,11 +97,15 @@ public class LoginTests extends BaseUI {
         mainPage.clickLogInlinkOnMainPage ();
         loginPage.clickContinueWithFacebookButton ();
         loginPage.javaWait (5000);
+
+
         childWindowHandler = driver.getWindowHandle ();
         driver.switchTo ().window (childWindowHandler);
         driver.manage ().window ().maximize ();
         loginPage.javaWait (5000);
-        //wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.cssSelector ("#email"))));
+        String url = driver.getCurrentUrl ();
+        System.out.println (url);
+        wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.cssSelector ("#email"))));
 
     }
 
