@@ -204,7 +204,7 @@ public class SignUpTests extends BaseUI {
     @Test
     public void verifyInputErrorsAreDisplayed() {
         mainPage.clickSignUpButton ();
-        signUpPage.signUpStep1 (Data.fullEmail1, Data.fullpassword);
+        signUpPage.signUpStep1 (Data.fullEmail1, Data.randomString);
         signUpPage.clickRegisterButton ();
         signUpPage.clickNextButton ();
 
