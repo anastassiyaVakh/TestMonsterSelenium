@@ -11,8 +11,6 @@ public class LoginTests extends BaseUI {
 
     String currentUrlLogin;
     String parent_handle;
-    String childWindowHandler;
-
 
     @Test
     public void verifyElementsAreDisplayedOnSignPage() {
@@ -111,7 +109,7 @@ public class LoginTests extends BaseUI {
         mainPage.clickLogInlinkOnMainPage ();
         loginPage.javaWait (5000);
 
-        String parent_handle = driver.getWindowHandle();
+        parent_handle = driver.getWindowHandle();
         System.out.println(parent_handle);
         loginPage.clickContinueWithFacebookButton ();
         wait.until(ExpectedConditions.numberOfWindowsToBe(2));
@@ -138,7 +136,7 @@ public class LoginTests extends BaseUI {
         mainPage.clickLogInlinkOnMainPage ();
         loginPage.javaWait (5000);
 
-        String parent_handle = driver.getWindowHandle();
+        parent_handle = driver.getWindowHandle();
         System.out.println(parent_handle);
         loginPage.clickContinueWithFacebookButton ();
         wait.until(ExpectedConditions.numberOfWindowsToBe(2));

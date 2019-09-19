@@ -23,34 +23,25 @@ public class Data {
 
 
     //Sign Up data
-    public static final String firstName1 = "Peter";
-    public static final String firstName2 = "John";
-    public static final String firstName3 = "Jeremy";
-    public static final String lastName1 = "Trevelor";
-    public static final String lastName2 = "Apple";
-    public static final String lastName3 = "Adams";
-    public static final String emptyString= "";
-    public static final String invalidString = "abc";
+    public static final String randomString = MainPage.generateRandomString ();
+    public static final String invalidString = MainPage.generateNewNumber1 (3);
+    public static final String emptyString = "";
     public static final String zipCode = "02132";
 
     // Email
-    public static final String emailPart1 = "test@geemail.com";
+    public static final String emailPart1 = "testEmailQA@gmail.com";
     public static final String fullEmail1 = MainPage.generateNewNumber (emailPart1, Data.lengthEmail);
-    public static final String emailPart2 = "testing@gmail.com";
-    public static final String fullEmail2 = MainPage.generateNewNumber (emailPart2,Data.lengthEmail);
-    public static final String emailPart3 = "testqa@gmail.com";
-    public static final String fullEmail3 = MainPage.generateNewNumber (emailPart3,Data.lengthEmail);
-    public static final String emailPart4 = "testemail123@hotmail.com";
-    public static final String fullEmail4 = MainPage.generateNewNumber (emailPart4,Data.lengthEmail);
-    public static final String invalidEmailPart4 = "monsterqagmail.com";
-    public static final String fullInvalidEmail = MainPage.generateNewNumber (invalidEmailPart4, Data.lengthEmail);
+    public static final String fullEmail2 = MainPage.generateNewNumber (emailPart1,Data.lengthEmail);
+    public static final String fullEmail3 = MainPage.generateNewNumber (emailPart1,Data.lengthEmail);
+    public static final String fullEmail4 = MainPage.generateNewNumber (emailPart1,Data.lengthEmail);
+    public static final String invalidEmailPart1 = "monsterqagmail.com";
+    public static final String fullInvalidEmail = MainPage.generateNewNumber (invalidEmailPart1, Data.lengthEmail);
     public static final int lengthEmail = 8;
     public static final String emailAlreadyRegistered = "anavakhitova@gmail.com";
 
     // Password
-    public static final String passwordpart1 = "Nickname";
-    public static final String fullpassword = MainPage.generateNewNumber (passwordpart1, Data.lengthSecondPartOfPassword);
-    public static final int lengthSecondPartOfPassword = 5;
+    public static final String fullpassword = MainPage.generateNewNumber (randomString, Data.lengthSecondPartOfPassword);
+    public static final int lengthSecondPartOfPassword = 1;
 
     //Facebook
     public static final String fb_email_not_registered = "martaleon9305@gmail.com";

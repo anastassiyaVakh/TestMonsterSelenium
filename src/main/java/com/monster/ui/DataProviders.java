@@ -21,37 +21,37 @@ public class DataProviders {
     @DataProvider(name= "RegistrationStep1TestEmailField")
     public static Object[][] testRegistrationEmail(){
         return new Object[][]{
-                {Data.fullEmail1, Data.fullpassword, Data.firstName1, Data.lastName1, Data.zipCode, true},
-                {Data.emailAlreadyRegistered, Data.fullpassword, Data.firstName2, Data.lastName2, Data.zipCode, false},
-                {Data.fullInvalidEmail, Data.fullpassword, Data.firstName3, Data.lastName3, Data.zipCode, false},
-                {Data.emptyString, Data.fullpassword, Data.firstName2, Data.lastName1, Data.zipCode, false},
+                {Data.fullEmail1, Data.fullpassword, Data.randomString, Data.randomString, Data.zipCode, true},
+                {Data.emailAlreadyRegistered, Data.fullpassword, Data.randomString, Data.randomString, Data.zipCode, false},
+                {Data.fullInvalidEmail, Data.fullpassword, Data.randomString, Data.randomString, Data.zipCode, false},
+                {Data.emptyString, Data.fullpassword, Data.randomString, Data.randomString, Data.zipCode, false},
         };
     }
 
     @DataProvider(name= "RegistrationStep1TestPasswordField")
     public static Object[][] testRegistrationPassword(){
         return new Object[][]{
-                {Data.fullEmail1, Data.fullpassword, Data.firstName1, Data.lastName1, Data.zipCode, true},
-                {Data.fullEmail2, Data.emptyString, Data.firstName2, Data.lastName2, Data.zipCode, false},
-                {Data.fullEmail3, Data.invalidString, Data.firstName3, Data.lastName3, Data.zipCode, false},
+                {Data.fullEmail1, Data.fullpassword, Data.randomString, Data.randomString, Data.zipCode, true},
+                {Data.fullEmail2, Data.emptyString, Data.randomString, Data.randomString, Data.zipCode, false},
+                {Data.fullEmail3, Data.invalidString, Data.randomString, Data.randomString, Data.zipCode, false},
         };
     }
 
     @DataProvider(name= "RegistrationStep2")
     public static Object[][] testRegistration2(){
         return new Object[][]{
-                {Data.fullEmail1, Data.fullpassword, Data.firstName1, Data.lastName1, Data.zipCode, true},
-                {Data.fullEmail2, Data.fullpassword, Data.emptyString, Data.lastName1, Data.zipCode, false},
-                {Data.fullEmail3, Data.fullpassword, Data.firstName2, Data.emptyString, Data.zipCode, false},
-                {Data.fullEmail4, Data.fullpassword, Data.firstName3, Data.lastName3, Data.emptyString, false},
+                {Data.fullEmail1, Data.fullpassword, Data.randomString, Data.randomString, Data.zipCode, true},
+                {Data.fullEmail2, Data.fullpassword, Data.emptyString, Data.randomString, Data.zipCode, false},
+                {Data.fullEmail3, Data.fullpassword, Data.randomString, Data.emptyString, Data.zipCode, false},
+                {Data.fullEmail4, Data.fullpassword, Data.randomString, Data.randomString, Data.emptyString, false},
         };
     }
 
     @DataProvider(name= "RegistrationStep3")
     public static Object[][] testRegistrationStep3(){
         return new Object[][]{
-                {Data.fullEmail1, Data.fullpassword, Data.firstName1, Data.lastName1, Data.zipCode, true},
-                {Data.fullEmail2, Data.fullpassword, Data.firstName2, Data.lastName2, Data.emptyString, false},
+                {Data.fullEmail1, Data.fullpassword, Data.randomString, Data.randomString, Data.zipCode, true},
+                {Data.fullEmail2, Data.fullpassword, Data.randomString, Data.randomString, Data.emptyString, false},
 
         };
     }

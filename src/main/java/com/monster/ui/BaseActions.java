@@ -47,11 +47,15 @@ public class BaseActions {
     }
 
     public static String generateNewNumber1(int length) {
-        return  RandomStringUtils.random (length, "125466");
+        return RandomStringUtils.random (length, "125466");
     }
-    public static String generateRandomString(){
+        public static String generateRandomString(){
+            return new BigInteger (80, new SecureRandom ()).toString(32);
+        }
+
+   /* public static String generateRandomString(){
         return new BigInteger (120, new SecureRandom ()).toString(32);
-    }
+    }*/
 
     public void getDropDownListByIndex(WebElement element, int index) {
         Select select = new Select (element);

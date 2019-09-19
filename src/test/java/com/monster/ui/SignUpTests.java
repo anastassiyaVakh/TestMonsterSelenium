@@ -1,13 +1,12 @@
 package com.monster.ui;
-import org.openqa.selenium.By;
+
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import java.util.List;
 
 public class SignUpTests extends BaseUI {
-    String linkSignUp;
+
     String nameOfErrorMessage;
     String currentUrlStep4ResumeIsNotUploaded;
 
@@ -93,7 +92,7 @@ public class SignUpTests extends BaseUI {
         mainPage.clickSignUpButton ();
         signUpPage.signUpStep1 (Data.fullEmail1, Data.fullpassword);
         signUpPage.clickRegisterButton ();
-        signUpPage.signUpStep2 (Data.firstName1, Data.lastName1, Data.zipCode);
+        signUpPage.signUpStep2 (Data.randomString, Data.randomString, Data.zipCode);
         signUpPage.clickNextButton ();
         signUpPage.verifyUploadResumeButtons ();
 
@@ -115,7 +114,7 @@ public class SignUpTests extends BaseUI {
         mainPage.clickSignUpButton ();
         signUpPage.signUpStep1 (Data.fullEmail1, Data.fullpassword);
         signUpPage.clickRegisterButton ();
-        signUpPage.signUpStep2 (Data.firstName1, Data.lastName1, Data.zipCode);
+        signUpPage.signUpStep2 (Data.randomString, Data.randomString, Data.zipCode);
         signUpPage.clickNextButton ();
 
          WebElement element= driver.findElement(Locators.UPLOAD_RESUME_LINK);
@@ -140,7 +139,7 @@ public class SignUpTests extends BaseUI {
         mainPage.clickSignUpButton ();
         signUpPage.signUpStep1 (Data.fullEmail1, Data.fullpassword);
         signUpPage.clickRegisterButton ();
-        signUpPage.signUpStep2 (Data.firstName1, Data.lastName1, Data.zipCode);
+        signUpPage.signUpStep2 (Data.randomString, Data.randomString, Data.zipCode);
         signUpPage.clickNextButton ();
         signUpPage.clickSkipForNowButton ();
         currentUrlStep4ResumeIsNotUploaded = driver.getCurrentUrl ();
@@ -179,7 +178,7 @@ public class SignUpTests extends BaseUI {
         mainPage.clickSignUpButton ();
         signUpPage.signUpStep1 (email, password);
         signUpPage.clickRegisterButton ();
-        signUpPage.signUpStep2 (Data.firstName1, Data.lastName1, Data.zipCode);
+        signUpPage.signUpStep2 (Data.randomString, Data.randomString, Data.zipCode);
         signUpPage.clickNextButton ();
 
         signUpPage.clickSkipForNowButton ();
@@ -237,23 +236,6 @@ public class SignUpTests extends BaseUI {
         }
 
     }
-
-    //signUpPage.ajaxClick(Locators.LINK_SKIP_FOR_NOW);
-    // linkSignUp = driver.getCurrentUrl();
-    // System.out.println(linkSignUp);
-    // Assert.assertEquals(linkSignUp, Data.expectedUrlSignUp);
-
-
-       /* System.out.println(linkSignUp);
-        try {
-            Thread.sleep(3000);
-        }catch (InterruptedException e){
-            e.printStackTrace();
-        }*/
-
-        /*WebElement dropDownListSortBy = driver.findElement(Locators.DROP_DOWN_SORT_BY);
-        signUpPage.getDropDownListByValue(dropDownListSortBy, "date created");
-    }*/
 
 }
 
