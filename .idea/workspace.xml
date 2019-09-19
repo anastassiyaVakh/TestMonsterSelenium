@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62d7cbb3-eede-45ee-a6b7-b90a053f4665" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/monster/ui/BaseUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/monster/ui/BaseUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/monster/ui/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/monster/ui/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/monster/ui/DataProviders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/monster/ui/DataProviders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/monster/ui/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/monster/ui/Locators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/monster/ui/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/monster/ui/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/monster/ui/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/monster/ui/LoginTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,10 +24,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/monster/ui/MainTests.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/monster/ui/SalaryTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-483">
-              <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+            <state relative-caret-position="150">
+              <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -30,10 +36,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/monster/ui/UploadResumeTests.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/monster/ui/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="512">
+              <caret line="93" column="89" lean-forward="true" selection-start-line="93" selection-start-column="89" selection-end-line="93" selection-end-column="89" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,15 +48,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/romance1.iml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/monster/ui/CompanyProfilesTests.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/monster/ui/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
+            <state relative-caret-position="945">
+              <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,31 +60,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/monster/ui/BaseUI.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/monster/ui/Locators.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="658">
-              <caret line="63" column="49" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="493">
+              <caret line="57" column="68" selection-start-line="57" selection-start-column="68" selection-end-line="57" selection-end-column="68" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestNG.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="37" column="21" lean-forward="true" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/monster/ui/LoginTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+            <state relative-caret-position="437">
+              <caret line="98" column="44" lean-forward="true" selection-start-line="98" selection-start-column="44" selection-end-line="98" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/monster/ui/DataProviders.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="112" column="64" lean-forward="true" selection-start-line="112" selection-start-column="24" selection-end-line="112" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,8 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/monster/ui/BaseActions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="145" column="13" lean-forward="true" selection-start-line="145" selection-start-column="13" selection-end-line="145" selection-end-column="13" />
+            <state relative-caret-position="645">
+              <caret line="145" column="13" selection-start-line="145" selection-start-column="13" selection-end-line="145" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1396#1397#0" expanded="true" />
@@ -106,19 +107,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestNG2.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/monster/ui/Data.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="870">
-              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+            <state relative-caret-position="496">
+              <caret line="60" column="12" lean-forward="true" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/monster/ui/SignUpTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="113" column="30" selection-start-line="113" selection-start-column="30" selection-end-line="113" selection-end-column="30" />
+            <state relative-caret-position="-924">
+              <caret line="129" column="16" selection-start-line="129" selection-start-column="16" selection-end-line="129" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/monster/ui/SignUpPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="687">
+              <caret line="69" column="7" lean-forward="true" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="90" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -152,7 +165,6 @@
         <option value="$USER_HOME$/Desktop/Homework/IdeaProject 3/src/test/java/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/FindJobsTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/UploadResumePage.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/BaseUI.java" />
         <option value="$PROJECT_DIR$/src/test/java/UploadResumeTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/SalaryPage.java" />
@@ -176,26 +188,34 @@
         <option value="$PROJECT_DIR$/src/test/java/com/monster/ui/CompanyProfilesTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/monster/ui/MainTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/monster/ui/MainPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/monster/ui/LoginPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/monster/ui/Locators.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/monster/ui/SignUpPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/monster/ui/Data.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/monster/ui/DataProviders.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/monster/ui/SignUpTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/monster/ui/SalaryTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/monster/ui/LoginTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/monster/ui/BaseActions.java" />
         <option value="$PROJECT_DIR$/TestNG.xml" />
         <option value="$PROJECT_DIR$/TestNG2.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/monster/ui/BaseUI.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/monster/ui/Locators.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/monster/ui/SignUpPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/monster/ui/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/monster/ui/Data.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/monster/ui/DataProviders.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/monster/ui/LoginTests.java" />
       </list>
     </option>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="2180" />
-    <option name="y" value="713" />
-    <option name="width" value="1371" />
-    <option name="height" value="385" />
+    <option name="x" value="1920" />
+    <option name="y" value="209" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -302,7 +322,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG./Library/MonsterGitHub/TestMonsterSelenium/TestNG2.xml">
+  <component name="RunManager" selected="TestNG.LoginTests.testSignInWithFacebook">
     <configuration name="romance1 [test]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -346,7 +366,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SalaryTests.testSalaryLink1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTests.testSignInWithFacebookEmailNotRegistered" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance1" />
       <extension name="coverage">
         <pattern>
@@ -355,8 +375,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.monster.ui" />
-      <option name="MAIN_CLASS_NAME" value="com.monster.ui.SalaryTests" />
-      <option name="METHOD_NAME" value="testSalaryLink1" />
+      <option name="MAIN_CLASS_NAME" value="com.monster.ui.LoginTests" />
+      <option name="METHOD_NAME" value="testSignInWithFacebookEmailNotRegistered" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -364,7 +384,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SignUpTests.verifyUploadResumeFromComputer" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTests.testSignInWithGoogle" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance1" />
       <extension name="coverage">
         <pattern>
@@ -373,8 +393,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.monster.ui" />
-      <option name="MAIN_CLASS_NAME" value="com.monster.ui.SignUpTests" />
-      <option name="METHOD_NAME" value="verifyUploadResumeFromComputer" />
+      <option name="MAIN_CLASS_NAME" value="com.monster.ui.LoginTests" />
+      <option name="METHOD_NAME" value="testSignInWithGoogle" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -413,18 +433,18 @@
     <list>
       <item itemvalue="Maven.romance1 [test]" />
       <item itemvalue="TestNG.LoginTests.testSignInWithFacebook" />
-      <item itemvalue="TestNG.SalaryTests.testSalaryLink1" />
-      <item itemvalue="TestNG.SignUpTests.verifyUploadResumeFromComputer" />
       <item itemvalue="TestNG.UploadResumeTests.testUploadResume" />
       <item itemvalue="TestNG./Library/MonsterGitHub/TestMonsterSelenium/TestNG2.xml" />
+      <item itemvalue="TestNG.LoginTests.testSignInWithGoogle" />
+      <item itemvalue="TestNG.LoginTests.testSignInWithFacebookEmailNotRegistered" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG./Library/MonsterGitHub/TestMonsterSelenium/TestNG2.xml" />
         <item itemvalue="TestNG.LoginTests.testSignInWithFacebook" />
+        <item itemvalue="TestNG.LoginTests.testSignInWithFacebookEmailNotRegistered" />
+        <item itemvalue="TestNG.LoginTests.testSignInWithGoogle" />
+        <item itemvalue="TestNG./Library/MonsterGitHub/TestMonsterSelenium/TestNG2.xml" />
         <item itemvalue="TestNG.UploadResumeTests.testUploadResume" />
-        <item itemvalue="TestNG.SalaryTests.testSalaryLink1" />
-        <item itemvalue="TestNG.SignUpTests.verifyUploadResumeFromComputer" />
       </list>
     </recent_temporary>
   </component>
@@ -442,41 +462,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SignUpTests_verifyUploadResumeFromComputer - 2019.09.17 at 07h 57m 46s.xml">
-      <configuration name="SignUpTests.verifyUploadResumeFromComputer" configurationId="TestNG" />
+    <history-entry file="LoginTests_testSignInWithGoogle - 2019.09.19 at 09h 25m 32s.xml">
+      <configuration name="LoginTests.testSignInWithGoogle" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SignUpTests_verifyUploadResumeFromComputer - 2019.09.17 at 07h 59m 35s.xml">
-      <configuration name="SignUpTests.verifyUploadResumeFromComputer" configurationId="TestNG" />
+    <history-entry file="LoginTests_testSignInWithGoogle - 2019.09.19 at 09h 27m 39s.xml">
+      <configuration name="LoginTests.testSignInWithGoogle" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SignUpTests_verifyUploadResumeFromComputer - 2019.09.17 at 08h 00m 59s.xml">
-      <configuration name="SignUpTests.verifyUploadResumeFromComputer" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SignUpTests_verifyUploadResumeFromComputer - 2019.09.17 at 08h 01m 34s.xml">
-      <configuration name="SignUpTests.verifyUploadResumeFromComputer" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SalaryTests_testSalaryLink1 - 2019.09.17 at 08h 02m 36s.xml">
-      <configuration name="SalaryTests.testSalaryLink1" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="UploadResumeTests_testUploadResume - 2019.09.17 at 08h 03m 05s.xml">
-      <configuration name="UploadResumeTests.testUploadResume" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTests_testSignInWithFacebook - 2019.09.17 at 14h 33m 27s.xml">
+    <history-entry file="LoginTests_testSignInWithFacebook - 2019.09.19 at 09h 28m 36s.xml">
       <configuration name="LoginTests.testSignInWithFacebook" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginTests_testSignInWithFacebook - 2019.09.17 at 14h 34m 49s.xml">
-      <configuration name="LoginTests.testSignInWithFacebook" configurationId="TestNG" />
+    <history-entry file="LoginTests_testSignInWithGoogle - 2019.09.19 at 09h 29m 09s.xml">
+      <configuration name="LoginTests.testSignInWithGoogle" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginTests_testSignInWithFacebook - 2019.09.17 at 14h 42m 01s.xml">
-      <configuration name="LoginTests.testSignInWithFacebook" configurationId="TestNG" />
+    <history-entry file="LoginTests_testSignInWithFacebookEmailNotRegistered - 2019.09.19 at 09h 57m 47s.xml">
+      <configuration name="LoginTests.testSignInWithFacebookEmailNotRegistered" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Library_MonsterGitHub_TestMonsterSelenium_TestNG2_xml - 2019.09.18 at 08h 32m 06s.xml">
-      <configuration name="/Library/MonsterGitHub/TestMonsterSelenium/TestNG2.xml" configurationId="TestNG" />
+    <history-entry file="LoginTests_testSignInWithFacebookEmailNotRegistered - 2019.09.19 at 09h 58m 58s.xml">
+      <configuration name="LoginTests.testSignInWithFacebookEmailNotRegistered" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTests_testSignInWithFacebookEmailNotRegistered - 2019.09.19 at 10h 27m 57s.xml">
+      <configuration name="LoginTests.testSignInWithFacebookEmailNotRegistered" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTests_testSignInWithFacebookEmailNotRegistered - 2019.09.19 at 10h 29m 52s.xml">
+      <configuration name="LoginTests.testSignInWithFacebookEmailNotRegistered" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTests_testSignInWithFacebookEmailNotRegistered - 2019.09.19 at 11h 04m 13s.xml">
+      <configuration name="LoginTests.testSignInWithFacebookEmailNotRegistered" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTests_testSignInWithFacebook - 2019.09.19 at 11h 14m 12s.xml">
+      <configuration name="LoginTests.testSignInWithFacebook" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="209" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2891374" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16400427" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -485,7 +506,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32722145" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.18946302" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18946302" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3977433" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -493,7 +514,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32299012" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32218844" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -577,7 +598,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/com/monster/ui/LoginTests.java</url>
-          <line>112</line>
+          <line>163</line>
           <properties class="com.monster.ui.LoginTests" method="testForgotPassword">
             <option name="EMULATED" value="true" />
           </properties>
@@ -678,13 +699,6 @@
     <entry file="file:///private/var/folders/q2/k9cjg9hd053g35c2jrtqkf7hw_95k5/T/com.microsoft.Outlook/Outlook Temp/TestMonsterSelenium/src/test/java/MainTests.java" />
     <entry file="file:///private/var/folders/q2/k9cjg9hd053g35c2jrtqkf7hw_95k5/T/com.microsoft.Outlook/Outlook Temp/TestMonsterSelenium/src/test/java/LoginTests.java" />
     <entry file="file:///private/var/folders/q2/k9cjg9hd053g35c2jrtqkf7hw_95k5/T/com.microsoft.Outlook/Outlook Temp/TestMonsterSelenium/src/test/java/FindJobsTests.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/function/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5">
@@ -712,26 +726,6 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/RegistrationData.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/monster/ui/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="49" column="6" lean-forward="true" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="91" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/monster/ui/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="26" column="51" lean-forward="true" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/monster/ui/Conditions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-882">
@@ -742,81 +736,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/monster/ui/DataProviders.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="110" column="5" lean-forward="true" selection-start-line="110" selection-start-column="5" selection-end-line="110" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/monster/ui/Locators.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-280">
-          <caret line="38" column="192" selection-start-line="38" selection-start-column="192" selection-end-line="38" selection-end-column="192" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/monster/ui/Data.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="55" column="75" lean-forward="true" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/monster/ui/SignUpPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-139">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/monster/ui/SalaryTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/romance1.iml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/monster/ui/LoginTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/monster/ui/UploadResumeTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/monster/ui/BaseActions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="145" column="13" lean-forward="true" selection-start-line="145" selection-start-column="13" selection-end-line="145" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1396#1397#0" expanded="true" />
-            <element signature="e#1463#1464#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -834,14 +762,7 @@
     <entry file="file://$PROJECT_DIR$/TestNG2.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="870">
-          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestNG.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="37" column="21" lean-forward="true" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
         </state>
       </provider>
     </entry>
@@ -857,18 +778,118 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/monster/ui/MainTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-483">
-          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        <state relative-caret-position="147">
+          <caret line="63" column="3" selection-start-line="63" selection-start-column="3" selection-end-line="63" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TestNG.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/monster/ui/SignUpTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="113" column="30" selection-start-line="113" selection-start-column="30" selection-end-line="113" selection-end-column="30" />
+        <state relative-caret-position="-924">
+          <caret line="129" column="16" selection-start-line="129" selection-start-column="16" selection-end-line="129" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/monster/ui/BaseActions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="145" column="13" selection-start-line="145" selection-start-column="13" selection-end-line="145" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1396#1397#0" expanded="true" />
+            <element signature="e#1463#1464#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/monster/ui/Locators.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="57" column="68" selection-start-line="57" selection-start-column="68" selection-end-line="57" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/monster/ui/SignUpPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="687">
+          <caret line="69" column="7" lean-forward="true" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="90" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/monster/ui/SalaryTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/monster/ui/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/monster/ui/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="93" column="89" lean-forward="true" selection-start-line="93" selection-start-column="89" selection-end-line="93" selection-end-column="89" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/monster/ui/Data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="60" column="12" lean-forward="true" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/monster/ui/DataProviders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="112" column="64" lean-forward="true" selection-start-line="112" selection-start-column="24" selection-end-line="112" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/monster/ui/LoginTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="98" column="44" lean-forward="true" selection-start-line="98" selection-start-column="44" selection-end-line="98" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -110,6 +110,29 @@ public class DataProviders {
         };
     }
 
+    @DataProvider(name="SignInWithFacebookEmailAlreadyRegistered")
+    public static Object[][] testSignInWithFacebookRegisteredEmail(){
+        return new Object[][]{
+                {Data.fb_email_already_registered, Data.fb_password_already_registered},
+
+        };
+    }
+    @DataProvider(name="SignInWithFacebookEmailNotRegistered")
+    public static Object[][] testSignInWithFacebook(){
+        return new Object[][]{
+                {Data.fb_email_not_registered, Data.fb_password_not_registered},
+
+        };
+    }
+
+    @DataProvider(name="SignInWithGoogle")
+    public static Object[][] testSignInWithGoogle(){
+        return new Object[][]{
+                {Data.google_email1, Data.google_password},
+
+        };
+    }
+
     @DataProvider (name = "Registration")
     public static Object[][] testRegistration() throws Exception{
         ArrayList<Object[]> out = new ArrayList<> ();

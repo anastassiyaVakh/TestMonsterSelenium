@@ -15,7 +15,7 @@ public class Locators {
     public static final By ACCOUNT_BUTTON = By.xpath ("//ul//li[@class='dropdown account-dropdown']");
     public static final By BUTTON_LOG_OUT = By.xpath ("//ul[@class='dropdown-menu']//li//a[text()='Log Out']");
 
-    //Login Page
+    //Log in Page
     public static final By LINK_LOG_IN = By.xpath ("//ul[@id='s-menu-d']//a[@href='https://login20.monster.com/Login/SignIn?ch=MONS&intcid=skr_navigation_www_signin']");
     public static final By HEADER_SIGN_IN_PAGE = By.xpath ("//h1[text()='Sign In With Monster Account']");
     public static final By HEADER_DONT_HAVE_MONSTER_ACCOUNT = By.xpath ("//h2[@class='new-user-header']");
@@ -27,7 +27,20 @@ public class Locators {
     public static final By BUTTON_SIGN_IN_WITH_GOOGLE = By.cssSelector ("#btn-google-signin");
     public static final By LINK_FORGOT_PASSWORD = By.xpath ("//a[@href='https://login20.monster.com/Password/Forgot?r=http%3a%2f%2flogin20.monster.com%2fLogin%2fSignIn%3fch%3dMONS%26intcid%3dskr_navigation_www_signin']");
     public static final By BUTTON_SIGN_UP_SIGN_IN_PAGE = By.cssSelector ("#btn-signup");
-     public static final By BUTTON_NEED_HELP = By.xpath (" //a[text()='Need help?']");
+    public static final By BUTTON_NEED_HELP = By.xpath (" //a[text()='Need help?']");
+
+    //Log In With Facebook
+    public static final By FB_EMAIL_FIELD = By.cssSelector ("#email");
+    public static final By FB_PASSWORD_FIELD = By.cssSelector ("#pass");
+    public static final By FB_LOGIN_BUTTON = By.cssSelector ("#u_0_0");
+    public static final By FB_BUTTON_CONFIRM = By.xpath ("//button[@name='__CONFIRM__']");
+
+    //Log In With Google
+    public static final By GOOGLE_EMAIL_FIELD = By.cssSelector ("#identifierId");
+    public static final By GOOGLE_PASSWORD_FIELD = By.xpath ("//input[@name='password']");
+    public static final By GOOGLE_BUTTON_NEXT_ON_EMAIL_SCREEN = By.cssSelector ("#identifierNext");
+    public static final By GOOGLE_BUTTON_NEXT_ON_PASSWORD_SCREEN = By.cssSelector ("#passwordNext");
+    public static final By GOOGLE_BUTTON_ALLOW = By.cssSelector ("#submit_approve_access");
 
     //Footer
     public static final By FOOTER_BUTTONS = By.xpath ("//ul[@class='col-sm-2 clearfix']//li//a");
@@ -39,7 +52,9 @@ public class Locators {
     public static final By LINK_SIGN_UP = By.xpath ("//a[@href='https://login20.monster.com/Become-Member/Create-Account?landedFrom=Header&ch=MONS&intcid=skr_navigation_www_create-account']");
     public static final By RADIO_BUTTON_YES = By.cssSelector ("#OptiInEmailCarrerRelatedYes");
     public static final By RADIO_BUTTON_NO = By.cssSelector ("#OptiInEmailCarrerRelatedNo");
-    public static final By BUTTON_REGISTER = By.cssSelector ("#btn-register");
+    public static final By LINK_PRAVACY_POLICY = By.xpath ("//a[@title='privacy policy']");
+    public static final By LINK_TERMS_OF_USE = By.xpath ("//a[@title='terms of use']");
+    public static final By BUTTON_REGISTER = By.xpath ("//button[@id='btn-register']");
     public static final By TEXT_FIELD_FIRST_NAME = By.cssSelector ("#FirstName");
     public static final By TEXT_FIELD_LAST_NAME = By.cssSelector ("#LastName");
     public static final By DROPDOWN_COUNTRY = By.xpath ("//select[@id='CountryID']");
@@ -47,6 +62,12 @@ public class Locators {
     public static final By DROPDOWN_CAREER_LEVEL = By.cssSelector ("#CareerLevelID");
     public static final By DROPDOWN_EDUCATION_LEVEL = By.cssSelector ("#EducationLevelID");
     public static final By BUTTON_NEXT = By.cssSelector ("#btn-submit");
+
+
+    //Sign Up Page Facebook
+    public static final By HEADER_CREATE_ACCOUNT = By.xpath ("//h1[text()='Create your Account ']");
+    public static final By BUTTON_SIGN_IN_ON_CREATE_ACCOUNT_PAGE = By.xpath ("//a[@role='button'][text()='Sign in']");
+
 
     //Sign Up Step 3
     public static final By CHECKBOX_RESUME_IS_SEARCHABLE_BY_EMPLOYERS = By.xpath ("//input[@id='IsSearchable']");

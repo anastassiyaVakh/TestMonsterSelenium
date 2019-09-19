@@ -46,10 +46,21 @@ public class Data {
     public static final String fullInvalidEmail = MainPage.generateNewNumber (invalidEmailPart4, Data.lengthEmail);
     public static final int lengthEmail = 8;
     public static final String emailAlreadyRegistered = "anavakhitova@gmail.com";
+
     // Password
     public static final String passwordpart1 = "Nickname";
     public static final String fullpassword = MainPage.generateNewNumber (passwordpart1, Data.lengthSecondPartOfPassword);
     public static final int lengthSecondPartOfPassword = 5;
+
+    //Facebook
+    public static final String fb_email_not_registered = "martaleon9305@gmail.com";
+    public static final String fb_password_not_registered = "Winter1!";
+    public static final String fb_email_already_registered = "holly@jobrapp.com";
+    public static final String fb_password_already_registered = "test1234";
+
+    //Google
+    public static final String google_email1 = "lekakeeler@gmail.com";
+    public static final String google_password = "Tair2013!";
 
     //Resume Upload data
     public static final String expectedUrlRegistrationStep4ResumeSkipped = "https://www.monster.com/account/homepage";

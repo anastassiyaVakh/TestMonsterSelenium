@@ -1,16 +1,16 @@
 package com.monster.ui;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 public class LoginTests extends BaseUI {
 
     String currentUrlLogin;
-    String parentWindowHandler;
+    String parent_handle;
     String childWindowHandler;
 
 
@@ -80,32 +80,83 @@ public class LoginTests extends BaseUI {
         }
     }
 
-    @Test
-    public void testSignInWithGoogle() {
+    @Test (dataProvider = "SignInWithGoogle", dataProviderClass = DataProviders.class)
+    public void testSignInWithGoogle(String email, String password) {
         mainPage.clickLogInlinkOnMainPage ();
+        loginPage.javaWait (5000);
+
+        parent_handle = driver.getWindowHandle();
+        System.out.println(parent_handle);
         loginPage.clickContinueWithGoogleButton ();
-        loginPage.javaWait (5000);
-        childWindowHandler = driver.getWindowHandle ();
-        driver.switchTo ().window (childWindowHandler);
-        loginPage.javaWait (5000);
-        //wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath ("//input[@id='identifierId']"))));
+        wait.until(ExpectedConditions.numberOfWindowsToBe(2));
+
+        Set<String> handles = driver.getWindowHandles();
+        System.out.println(handles);
+        for(String handle1:handles)
+            if(!parent_handle.equals(handle1))
+            {
+                driver.switchTo().window(handle1);
+                System.out.println(handle1);
+                loginPage.javaWait (5000);
+                loginPage.signInWithGoogle (email, password);
+                loginPage.javaWait (5000);
+                driver.switchTo ().window (parent_handle);
+                loginPage.verifyLogOutButtonIsDisplayed ();
+            }
 
     }
 
-    @Test
-    public void testSignInWithFacebook() {
+    @Test (dataProvider = "SignInWithFacebookEmailNotRegistered", dataProviderClass = DataProviders.class)
+    public void testSignInWithFacebookEmailNotRegistered(String email, String password) {
         mainPage.clickLogInlinkOnMainPage ();
+        loginPage.javaWait (5000);
+
+        String parent_handle = driver.getWindowHandle();
+        System.out.println(parent_handle);
         loginPage.clickContinueWithFacebookButton ();
+        wait.until(ExpectedConditions.numberOfWindowsToBe(2));
+
+        Set<String> handles = driver.getWindowHandles();
+        System.out.println(handles);
+        for(String handle1:handles)
+            if(!parent_handle.equals(handle1))
+            {
+                driver.switchTo().window(handle1);
+                System.out.println(handle1);
+                loginPage.signInWithFacebook (email, password);
+                loginPage.javaWait (5000);
+                //loginPage.facebookClickConfirmButton ();
+                driver.switchTo ().window (parent_handle);
+                loginPage.javaWait (5000);
+                loginPage.verifyElementsAreDisplayedOnCreateAccountPage ();
+
+            }
+
+    }
+    @Test (dataProvider = "SignInWithFacebookEmailAlreadyRegistered", dataProviderClass = DataProviders.class)
+    public void testSignInWithFacebook(String email, String password) {
+        mainPage.clickLogInlinkOnMainPage ();
         loginPage.javaWait (5000);
 
+        String parent_handle = driver.getWindowHandle();
+        System.out.println(parent_handle);
+        loginPage.clickContinueWithFacebookButton ();
+        wait.until(ExpectedConditions.numberOfWindowsToBe(2));
 
-        childWindowHandler = driver.getWindowHandle ();
-        driver.switchTo ().window (childWindowHandler);
-        driver.manage ().window ().maximize ();
-        loginPage.javaWait (5000);
-        String url = driver.getCurrentUrl ();
-        System.out.println (url);
-        wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.cssSelector ("#email"))));
+        Set<String> handles = driver.getWindowHandles();
+        System.out.println(handles);
+        for(String handle1:handles)
+            if(!parent_handle.equals(handle1))
+            {
+                driver.switchTo().window(handle1);
+                System.out.println(handle1);
+                loginPage.signInWithFacebook (email, password);
+                loginPage.javaWait (5000);
+                //loginPage.facebookClickConfirmButton ();
+                driver.switchTo ().window (parent_handle);
+                loginPage.javaWait (5000);
+                loginPage.verifyLogOutButtonIsDisplayed ();
+            }
 
     }
 
