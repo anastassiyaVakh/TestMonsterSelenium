@@ -1,20 +1,108 @@
 package com.monster.ui;
+import org.openqa.selenium.Point;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import java.sql.SQLOutput;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 public class MainTests extends BaseUI {
 
+    String info;
+    String popularJobName;
+
     @Test
-    public void smokeTestMainMenu() {
-        List<WebElement> mainTabs = driver.findElements (Locators.MAIN_NAVIGATION_MENU);
-        for (int i = 0; i < mainTabs.size (); i++) {
-            mainTabs.get (i).click ();
-            driver.get (Data.mainUrl);
-            mainTabs = driver.findElements (Locators.MAIN_NAVIGATION_MENU);
-        }
+    public void verifyMainNavBarElementsAreDisplayed(){
+
+        driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+        wait.until (ExpectedConditions.elementToBeClickable (Locators.DROPDOWN_FIND_JOBS));
+        wait.until (ExpectedConditions.elementToBeClickable (Locators.DROPDOWN_CAREER_RESOURCES));
+        wait.until (ExpectedConditions.elementToBeClickable (Locators.TAB_COMPANY_PROFILE));
+        wait.until (ExpectedConditions.elementToBeClickable (Locators.TAB_SALARY));
+
+        driver.findElement(Locators.DROPDOWN_FIND_JOBS).click();
+
+        wait.until (ExpectedConditions.elementToBeClickable (Locators.TAB_ADVANCED_SEARCH));
+        wait.until (ExpectedConditions.elementToBeClickable (Locators.TAB_BROWSE_JOBS));
+        wait.until (ExpectedConditions.elementToBeClickable (Locators.DROPDOWN_MOST_POPULAR_JOBS));
+
+        driver.findElement (Locators.DROPDOWN_CAREER_RESOURCES).click ();
+
+        wait.until (ExpectedConditions.elementToBeClickable (Locators.TAB_CAREER_ADVICE));
+        wait.until (ExpectedConditions.elementToBeClickable (Locators.TAB_RESUME_WRITING_SERVICES));
+        wait.until (ExpectedConditions.elementToBeClickable (Locators.TAB_UPLOAD_RESUME));
+
     }
+
+    @Test
+    public void verifyAccountButtonIsDisplayed(){
+        driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+        driver.manage().window().setPosition(new Point (-2000, 0));
+        wait.until (ExpectedConditions.elementToBeClickable (Locators.DROPDOWN_ACCOUNT));
+        driver.findElement (Locators.DROPDOWN_ACCOUNT).click ();
+        wait.until (ExpectedConditions.elementToBeClickable (Locators.BUTTON_LOGIN_TOP_NAV_BAR));
+        wait.until (ExpectedConditions.elementToBeClickable (Locators.BUTTON_SIGN_UP_TOP_NAV_BAR));
+
+
+
+
+    }
+@Test
+public void verifyMostPopularJobsDropdownMenu(){
+    driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+    driver.findElement (Locators.DROPDOWN_FIND_JOBS).click ();
+    wait.until (ExpectedConditions.elementToBeClickable (Locators.DROPDOWN_MOST_POPULAR_JOBS));
+
+    driver.findElement (Locators.DROPDOWN_MOST_POPULAR_JOBS).click ();
+    int count = driver.findElements (Locators.TAB_MOST_POPULAR_JOBS).size ();
+    System.out.println (count);
+    if (count == 6){
+        System.out.println ("PASS: Most popular jobs are displayed ");
+    }
+    else {
+        System.out.println ("Something is wrong");
+
+    }
+}
+    @Test
+    public void smokeTestMostPopularJobs() {
+
+        List<WebElement> popularJobsList = mainPage.collectMostPopularJobs ();
+
+        for (int i = 0; i < popularJobsList.size (); i++) {
+            WebElement link = popularJobsList.get (i);
+            popularJobName = link.getText ();
+
+            if (popularJobName.contains ("Software Developer / Engineer")) {
+                System.out.println ("Software Developer / Engineer tab is displayed ");
+            } else if (popularJobName.contains ("Registered Nurse")) {
+                System.out.println ("Registered Nurse tab is displayed");
+
+            } else if (popularJobName.contains ("Retail Sales")) {
+                System.out.println ("Retail Sales tab is displayed");
+
+            } else if (popularJobName.contains ("IT")) {
+                System.out.println ("IT tab is displayed");
+
+            } else if (popularJobName.contains ("Driver")) {
+                System.out.println ("Driver tab is displayed");
+
+            }else if (popularJobName.contains ("Customer Service")) {
+                System.out.println ("Customer Service tab is displayed ");
+
+            }
+            else {
+                System.out.println ("Something is wrong");
+
+            }
+        }
+
+    }
+
+
 
     @Test
     public void smokeTestFooter() {
@@ -28,12 +116,11 @@ public class MainTests extends BaseUI {
         }
     }
 
-    @Test
+  /*  @Test
     public void testNavigationMenu() {
 
         String actualTitle;
         String actualUrlCompanyProfiles;
-        String info;
 
         List<WebElement> links = driver.findElements (Locators.MAIN_NAVIGATION_MENU);
         System.out.println (links.size ());
@@ -69,7 +156,7 @@ public class MainTests extends BaseUI {
             links = driver.findElements (Locators.MAIN_NAVIGATION_MENU);
 
         }
-    }
+    }*/
 
     @Test
     public void testAdvancedSearch() {

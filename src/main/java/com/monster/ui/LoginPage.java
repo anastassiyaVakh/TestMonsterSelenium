@@ -42,21 +42,21 @@ public class LoginPage extends BaseActions {
     }
 
     public void clickSignUpButton(){
-        driver.findElement(Locators.ACCOUNT_BUTTON).click();
-        wait.until(ExpectedConditions.elementToBeClickable(Locators.LINK_SIGN_UP));
-        driver.findElement(Locators.LINK_SIGN_UP).click();
+        driver.findElement(Locators.DROPDOWN_ACCOUNT).click();
+        wait.until(ExpectedConditions.elementToBeClickable(Locators.BUTTON_SIGN_UP_TOP_NAV_BAR));
+        driver.findElement(Locators.BUTTON_LOGIN_TOP_NAV_BAR).click();
     }
 
     public void signOut(){
         driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
-        driver.findElement (Locators.ACCOUNT_BUTTON).click ();
+        driver.findElement (Locators.DROPDOWN_ACCOUNT).click ();
         wait.until(ExpectedConditions.elementToBeClickable(Locators.BUTTON_LOG_OUT));
         driver.findElement (Locators.BUTTON_LOG_OUT).click ();
     }
 
     public void verifyLogOutButtonIsDisplayed(){
         driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
-        driver.findElement (Locators.ACCOUNT_BUTTON).click ();
+        driver.findElement (Locators.DROPDOWN_ACCOUNT).click ();
         wait.until(ExpectedConditions.elementToBeClickable(Locators.BUTTON_LOG_OUT));
         System.out.println ("Log out button is displayed");
 

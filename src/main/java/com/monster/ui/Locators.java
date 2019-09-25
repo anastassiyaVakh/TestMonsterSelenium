@@ -4,19 +4,34 @@ import org.openqa.selenium.By;
 
 public class Locators {
 
+    //Main Navigation bar
+    public static final By DROPDOWN_FIND_JOBS = By.xpath ("//a[@class='dropdown-toggle'] [text()='Find Jobs ']");
+    public static final By DROPDOWN_CAREER_RESOURCES = By.xpath ("//a[@class='dropdown-toggle'][text()='Career Resources ']");
+    public static final By TAB_COMPANY_PROFILE = By.xpath ("//a[@href='https://www.monster.com/company/?intcid=skr_navigation_www_company']");
+    public static final By DROPDOWN_MOST_POPULAR_JOBS = By.xpath ("//a[@class='dropdown-toggle'][text()='Most Popular Jobs ']");
+    public static final By TAB_MOST_POPULAR_JOBS = By.xpath ("//ul[@class='nav navbar-nav hidden-xs subnav-nav clearfix']//ul[@id='most-popular-jobs-id']//li");
+    public static final By TAB_SALARY = By.xpath ("//a[@class='navbar-text subnav-link'][text()='Salary']");
+    public static final By TAB_ADVANCED_SEARCH = By.xpath ("//ul[@class='dropdown-menu']//a[text()='Advanced Search']");
+    public static final By TAB_BROWSE_JOBS = By.xpath ("//ul[@class='dropdown-menu']//a[text()='Browse Jobs']");
+    public static final By TAB_CAREER_ADVICE = By.xpath ("//ul[@class='dropdown-menu']//a[text()='Career Advice']");
+    public static final By TAB_RESUME_WRITING_SERVICES = By.xpath ("//li[@id='sub-nav-10']//a[text()='Resume Writing Services']");
+    public static final By TAB_UPLOAD_RESUME = By.xpath ("//li[@class='login-hide']//a[text()='Upload Resume']");
+
+    //Top Navigation bar
+    public static final By DROPDOWN_ACCOUNT = By.xpath ("//a[@class='dropdown-toggle navbar-icon-link loginLink2']//span[@class='logged-name'][contains(text(),'Account')]");//a[@class='dropdown-toggle navbar-icon-link loginLink2']");
+    public static final By BUTTON_LOGIN_TOP_NAV_BAR = By.xpath ("//ul[@class='dropdown-menu']//a[text()='Log In']");
+    public static final By BUTTON_SIGN_UP_TOP_NAV_BAR = By.xpath ("//ul[@id='s-menu-d']//a[text()='Sign Up']");
+
+
     //Main Page
-    public static final By FIND_JOBS_BUTTON = By.xpath ("//a[@class='dropdown-toggle'][contains(text(),'Find Jobs')]");
-    public static final By BROWSE_JOBS_LINK = By.xpath ("//li//a[@href='https://www.monster.com/jobs/?intcid=skr_navigation_www_jobs']");
-    public static final By ADVANCED_SEARCH_LINK = By.xpath ("//li//a[@href='https://www.monster.com/jobs/advanced-search?intcid=skr_navigation_www_advanced-search']");
-    public static final By MOST_POPULAR_JOBS_BUTTON = By.xpath ("//a[@class='dropdown-toggle'][contains(text(),'Most Popular Jobs')]");
     public static final By IT_JOBS_LINK = By.xpath ("//li//a[@href='https://www.monster.com/jobs/q-it-support-specialist-jobs?intcid=skr_navigation_www_it-jobs']");
-    public static final By CAREER_RESOURCES_BUTTON = By.xpath ("//a[@class='dropdown-toggle'][contains(text(),'Career Resources')]");
+
     public static final By CAREER_ADVICE_BUTTON = By.xpath ("https://www.monster.com/career-advice/");
-    public static final By ACCOUNT_BUTTON = By.xpath ("//ul//li[@class='dropdown account-dropdown']");
+   // public static final By ACCOUNT_BUTTON = By.xpath ("//ul//li[@class='dropdown account-dropdown']");
     public static final By BUTTON_LOG_OUT = By.xpath ("//ul[@class='dropdown-menu']//li//a[text()='Log Out']");
 
     //Log in Page
-    public static final By LINK_LOG_IN = By.xpath ("//ul[@id='s-menu-d']//a[@href='https://login20.monster.com/Login/SignIn?ch=MONS&intcid=skr_navigation_www_signin']");
+
     public static final By HEADER_SIGN_IN_PAGE = By.xpath ("//h1[text()='Sign In With Monster Account']");
     public static final By HEADER_DONT_HAVE_MONSTER_ACCOUNT = By.xpath ("//h2[@class='new-user-header']");
     public static final By TEXT_FIELD_EMAIL = By.xpath ("//input[@id='EmailAddress']");
@@ -49,7 +64,7 @@ public class Locators {
     public static final By HEADER_RESET_PASSWORD = By.xpath ("//h1[text()='Password Reset']");
 
     //Sign Up Page
-    public static final By LINK_SIGN_UP = By.xpath ("//a[@href='https://login20.monster.com/Become-Member/Create-Account?landedFrom=Header&ch=MONS&intcid=skr_navigation_www_create-account']");
+   // public static final By LINK_SIGN_UP = By.xpath ("//a[@href='https://login20.monster.com/Become-Member/Create-Account?landedFrom=Header&ch=MONS&intcid=skr_navigation_www_create-account']");
     public static final By RADIO_BUTTON_YES = By.cssSelector ("#OptiInEmailCarrerRelatedYes");
     public static final By RADIO_BUTTON_NO = By.cssSelector ("#OptiInEmailCarrerRelatedNo");
     public static final By LINK_PRAVACY_POLICY = By.xpath ("//a[@title='privacy policy']");
@@ -98,17 +113,17 @@ public class Locators {
     public static final By ERROR_SOMETHING_IS_INCORRECT = By.xpath ("//div[@class='form-group has-error']");
 
     //Salary
-    public static final By LINK_SALARY = By.xpath ("//a[@href='https://www.monster.com/salary/?intcid=skr_navigation_www_salary']");
+
     public static final By PAGE_TITLE_SALARY = By.xpath ("/h1[contains(text(),'What Are You Worth?')]");
 
-    public static final By MAIN_NAVIGATION_MENU = By.xpath ("//ul[@class='nav navbar-nav hidden-xs subnav-nav clearfix']");
+
 
     public static final By PAGE_TITLE_COMPANY_PROFILES = By.xpath ("//h1[@class='hero_slogan']");
 
     public static final By LINK_BROWSE_ALL_COMPANIES = By.cssSelector ("#browseAll");
 
     //Compnany Profiles
-    public static final By LINK_COMPANY_PROFILE = By.xpath ("//a[@href='https://www.monster.com/company/?intcid=skr_navigation_www_company']");
+
 
 
     //Upload Resume

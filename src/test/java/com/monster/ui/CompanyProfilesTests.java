@@ -8,7 +8,7 @@ public class CompanyProfilesTests extends BaseUI {
 
     @Test
     public  void testCompanyProfiles (){
-        driver.findElement(Locators.LINK_COMPANY_PROFILE).click();
+        driver.findElement(Locators.TAB_COMPANY_PROFILE).click();
         currentUrlCompanyProfiles = driver.getCurrentUrl();
         System.out.println(currentUrlCompanyProfiles);
         Assert.assertEquals(currentUrlCompanyProfiles, Data.expectedUrlCompanyProfiles);

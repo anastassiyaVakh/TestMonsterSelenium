@@ -101,7 +101,7 @@ public class SignUpTests extends BaseUI {
 
         int sizeOfDropDownWorkAuthorization = signUpPage.getSizeDropDownList (Locators.DROPDOWN_WORK_AUTHORIZATION);
         System.out.println ("Size of Authorization dropdown menu is " + sizeOfDropDownWorkAuthorization);
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < 2; i++) {
             signUpPage.selectItemDropDownRandomOption (Locators.DROPDOWN_WORK_AUTHORIZATION, "Work Authorization");
             mainPage.javaWait (3);
         }

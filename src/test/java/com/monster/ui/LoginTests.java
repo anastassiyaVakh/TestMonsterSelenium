@@ -53,7 +53,7 @@ public class LoginTests extends BaseUI {
 
     @Test(dataProvider = "SignInWithInvalidCredentials", dataProviderClass = DataProviders.class)
     public void signInWithEmailNegativeTestCase(String email, String password, boolean requirement) {
-        Assert.assertTrue (driver.findElement (Locators.LINK_LOG_IN).isDisplayed (), "Element is not displayed");
+        Assert.assertTrue (driver.findElement (Locators.BUTTON_LOGIN_TOP_NAV_BAR).isDisplayed (), "Element is not displayed");
         mainPage.clickLogInlinkOnMainPage ();
         currentUrlLogin = driver.getCurrentUrl ();
         System.out.println (currentUrlLogin);
