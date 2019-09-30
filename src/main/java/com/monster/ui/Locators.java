@@ -14,14 +14,32 @@ public class Locators {
     public static final By TAB_ADVANCED_SEARCH = By.xpath ("//ul[@class='dropdown-menu']//a[text()='Advanced Search']");
     public static final By TAB_BROWSE_JOBS = By.xpath ("//ul[@class='dropdown-menu']//a[text()='Browse Jobs']");
     public static final By TAB_CAREER_ADVICE = By.xpath ("//ul[@class='dropdown-menu']//a[text()='Career Advice']");
-    public static final By TAB_RESUME_WRITING_SERVICES = By.xpath ("//li[@id='sub-nav-10']//a[text()='Resume Writing Services']");
+    public static final By TAB_RESUME_WRITING_SERVICES = By.xpath ("//ul[@class='dropdown-menu']//a[text()='Resume Writing Services']");
     public static final By TAB_UPLOAD_RESUME = By.xpath ("//li[@class='login-hide']//a[text()='Upload Resume']");
+    public static final By BUTTON_ACCOUNT_TOP = By.xpath ("//button[@class='navbar-toggle navbar-toggle-account account-trigger action action--open-2 hidden-sm hidden-md hidden-lg']//span[@class='logged-name'][contains(text(),'Account')]  ");
+    public static final By BUTTON_POST_JOBS_FIND_TALENTS = By.xpath ("//div[@id='login-btn-employer']//a");
 
     //Top Navigation bar
-    public static final By DROPDOWN_ACCOUNT = By.xpath ("//a[@class='dropdown-toggle navbar-icon-link loginLink2']//span[@class='logged-name'][contains(text(),'Account')]");//a[@class='dropdown-toggle navbar-icon-link loginLink2']");
+    public static final By DROPDOWN_ACCOUNT = By.xpath ("//a[@class='dropdown-toggle navbar-icon-link loginLink2']");
     public static final By BUTTON_LOGIN_TOP_NAV_BAR = By.xpath ("//ul[@class='dropdown-menu']//a[text()='Log In']");
     public static final By BUTTON_SIGN_UP_TOP_NAV_BAR = By.xpath ("//ul[@id='s-menu-d']//a[text()='Sign Up']");
 
+    //Footer
+    public static final By FOOTER_BUTTONS = By.xpath ("//ul[@class='col-sm-2 clearfix']//li//a");
+    public static final By FOOTER_POPULAR_JOBS_LINKS = By.xpath ("//div[@id='pv_pre_footer']//li//a");
+
+    //Search
+    public static final By SEARCH_TAB_JOBS = By.xpath ("//li[@role='presentation']//a[@title='Search for Jobs']");
+    public static final By SEARCH_TAB_COMPANIES = By.xpath ("//li[@role='presentation']//a[@title='Search for Companies']");
+    public static final By SEARCH_TAB_ADVICE = By.xpath ("//li[@role='presentation']//a[@title='Search Career Advice']");
+    public static final By SEARCH_FOR_JOBS_FIELD = By.xpath ("//input[@id='q2']");
+    public static final By SEARCH_FOR_COMPANIES_FIELD = By.xpath ("//input[@id='compbn']");
+    public static final By SEARCH_FOR_CAREER_ADVICE_FIELD = By.xpath ("//input[@id='q3']");
+    public static final By BUTTON_FIND_JOBS = By.xpath ("//button[@id='doQuickSearch2']");
+    public static final By BUTTON_SEARCH_FOR_COMPANIES = By.xpath ("//button[@id='doCompanyQuickSearch']");
+    public static final By BUTTON_SEARCH_FOR_CAREER_ADVICE = By.xpath ("//button[@id='doAdviceQuickSearch']");
+
+    public static final By LINK_UPLOAD_RESUME = By.xpath ("//a[@href='https://www.monster.com/resumes/post-resume2?landedFrom=Header&intcid=skr_CTAResumeUpload_www_post-resume2']");
 
     //Main Page
     public static final By IT_JOBS_LINK = By.xpath ("//li//a[@href='https://www.monster.com/jobs/q-it-support-specialist-jobs?intcid=skr_navigation_www_it-jobs']");
@@ -57,8 +75,7 @@ public class Locators {
     public static final By GOOGLE_BUTTON_NEXT_ON_PASSWORD_SCREEN = By.cssSelector ("#passwordNext");
     public static final By GOOGLE_BUTTON_ALLOW = By.cssSelector ("#submit_approve_access");
 
-    //Footer
-    public static final By FOOTER_BUTTONS = By.xpath ("//ul[@class='col-sm-2 clearfix']//li//a");
+
     //Forgot Password Page
     public static final By BUTTON_SEND_RESET_INSTRUCTION = By.xpath (" //button[@class='ui-m-btn']");
     public static final By HEADER_RESET_PASSWORD = By.xpath ("//h1[text()='Password Reset']");
@@ -127,7 +144,7 @@ public class Locators {
 
 
     //Upload Resume
-    public static final By LINK_UPLOAD_RESUME = By.xpath ("//a[@href='https://www.monster.com/resumes/post-resume2?landedFrom=Header&intcid=skr_navigation_www_post-resume2']");
+    //public static final By LINK_UPLOAD_RESUME = By.xpath ("//a[@href='https://www.monster.com/resumes/post-resume2?landedFrom=Header&intcid=skr_navigation_www_post-resume2']");
     public static final By UPLOAD_RESUME_INDICATOR = By.xpath ("//div[@id='load-spinner']");
 
     public static final By UPLOAD_RESUME_LINK = By.xpath ("//input[@id='fuUploadFromMyComputer'][@name='upload']");

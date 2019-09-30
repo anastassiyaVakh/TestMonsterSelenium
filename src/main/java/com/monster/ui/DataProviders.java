@@ -73,7 +73,6 @@ public class DataProviders {
                 {Data.fullEmail2, Data.fullpassword, false},
                 {Data.fullEmail3, Data.emptyString, true},
                 {Data.emptyString, Data.randomString, true},
-                {Data.emptyString, Data.randomString, true},
                 {Data.emailAlreadyLinkedToGoogleAccount, Data.fullpassword, false},
 
         };

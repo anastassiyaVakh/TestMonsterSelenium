@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="62d7cbb3-eede-45ee-a6b7-b90a053f4665" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/monster/ui/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/monster/ui/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/monster/ui/DataProviders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/monster/ui/DataProviders.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/monster/ui/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/monster/ui/Locators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/monster/ui/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/monster/ui/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/monster/ui/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/monster/ui/LoginTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/monster/ui/MainTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/monster/ui/MainTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
@@ -20,29 +22,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/monster/ui/MainTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="56" lean-forward="true" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
+            <state relative-caret-position="527">
+              <caret line="151" selection-start-line="151" selection-end-line="151" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#6236#6237#0" expanded="true" />
-                <element signature="e#6289#6290#0" expanded="true" />
-                <element signature="e#6335#6336#0" expanded="true" />
-                <element signature="e#6384#6385#0" expanded="true" />
-                <element signature="e#6575#6576#0" expanded="true" />
-                <element signature="e#6620#6621#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/monster/ui/LoginTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+            <state relative-caret-position="468">
+              <caret line="72" column="95" selection-start-line="72" selection-start-column="95" selection-end-line="72" selection-end-column="95" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,7 +49,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/monster/ui/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
+            <state relative-caret-position="589">
               <caret line="48" selection-start-line="48" selection-end-line="48" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -63,28 +59,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/monster/ui/Locators.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/monster/ui/DataProviders.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1275">
-              <caret line="85" column="10" lean-forward="true" selection-start-line="85" selection-start-column="10" selection-end-line="85" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/monster/ui/MainPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="384">
+              <caret line="73" column="24" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,10 +71,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/monster/ui/UploadResumeTests.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/monster/ui/Data.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="289">
+              <caret line="25" column="67" lean-forward="true" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/monster/ui/Locators.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="28" column="102" selection-start-line="28" selection-start-column="102" selection-end-line="28" selection-end-column="102" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/monster/ui/MainPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,8 +112,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/monster/ui/SignUpPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+            <state relative-caret-position="-351">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -151,6 +147,7 @@
       <find>//span[@id='EmailAddress-error'][text()='Error: Email address is required.']&quot;</find>
       <find>//h1[@class='hero_slogan']</find>
       <find>//input[@id='identifierId']</find>
+      <find>//a[@class='dropdown-toggle navbar-icon-link loginLink2']&quot;</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -189,16 +186,16 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/monster/ui/SignUpPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/monster/ui/BaseActions.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/monster/ui/Data.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/monster/ui/DataProviders.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/monster/ui/SalaryTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/monster/ui/CompanyProfilesTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/monster/ui/LoginPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/monster/ui/LoginTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/monster/ui/MainPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/monster/ui/SignUpTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/monster/ui/Locators.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/monster/ui/MainTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/monster/ui/Data.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/monster/ui/DataProviders.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/monster/ui/LoginTests.java" />
       </list>
     </option>
   </component>
@@ -209,18 +206,17 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1939" />
-    <option name="y" value="232" />
-    <option name="width" value="1921" />
-    <option name="height" value="1057" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="1920" />
+    <option name="y" value="209" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -285,6 +281,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -320,7 +317,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.MainTests.verifyAccountButtonIsDisplayed">
+  <component name="RunManager" selected="TestNG.LoginTests.signInWithEmailNegativeTestCase">
     <configuration name="romance1 [test]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -364,7 +361,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTests.verifyAccountButtonIsDisplayed" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTests.testSignInValidAccountInfo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="romance1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.monster.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.monster.ui" />
+      <option name="MAIN_CLASS_NAME" value="com.monster.ui.LoginTests" />
+      <option name="METHOD_NAME" value="testSignInValidAccountInfo" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTests.verifyElementsAreDisplayedOnSignPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="romance1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.monster.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.monster.ui" />
+      <option name="MAIN_CLASS_NAME" value="com.monster.ui.LoginTests" />
+      <option name="METHOD_NAME" value="verifyElementsAreDisplayedOnSignPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTests.clickBrowsePopularUSAJobsFooterLinks" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance1" />
       <extension name="coverage">
         <pattern>
@@ -374,7 +407,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.monster.ui" />
       <option name="MAIN_CLASS_NAME" value="com.monster.ui.MainTests" />
-      <option name="METHOD_NAME" value="verifyAccountButtonIsDisplayed" />
+      <option name="METHOD_NAME" value="clickBrowsePopularUSAJobsFooterLinks" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -382,7 +415,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SignUpTests.testContactPreferencesForm" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTests.verifyBodyElementsAreDisplayedOnMainPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance1" />
       <extension name="coverage">
         <pattern>
@@ -391,44 +424,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.monster.ui" />
-      <option name="MAIN_CLASS_NAME" value="com.monster.ui.SignUpTests" />
-      <option name="METHOD_NAME" value="testContactPreferencesForm" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SignUpTests.testRegistrationStep3" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="romance1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.monster.ui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.monster.ui" />
-      <option name="MAIN_CLASS_NAME" value="com.monster.ui.SignUpTests" />
-      <option name="METHOD_NAME" value="testRegistrationStep3" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SignUpTests.verifyElementsAreDisplayedStep3" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="romance1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.monster.ui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.monster.ui" />
-      <option name="MAIN_CLASS_NAME" value="com.monster.ui.SignUpTests" />
-      <option name="METHOD_NAME" value="verifyElementsAreDisplayedStep3" />
+      <option name="MAIN_CLASS_NAME" value="com.monster.ui.MainTests" />
+      <option name="METHOD_NAME" value="verifyBodyElementsAreDisplayedOnMainPage" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -438,19 +435,19 @@
     </configuration>
     <list>
       <item itemvalue="Maven.romance1 [test]" />
+      <item itemvalue="TestNG.MainTests.verifyBodyElementsAreDisplayedOnMainPage" />
+      <item itemvalue="TestNG.MainTests.clickBrowsePopularUSAJobsFooterLinks" />
+      <item itemvalue="TestNG.LoginTests.verifyElementsAreDisplayedOnSignPage" />
+      <item itemvalue="TestNG.LoginTests.testSignInValidAccountInfo" />
       <item itemvalue="TestNG.LoginTests.signInWithEmailNegativeTestCase" />
-      <item itemvalue="TestNG.SignUpTests.testRegistrationStep3" />
-      <item itemvalue="TestNG.SignUpTests.verifyElementsAreDisplayedStep3" />
-      <item itemvalue="TestNG.SignUpTests.testContactPreferencesForm" />
-      <item itemvalue="TestNG.MainTests.verifyAccountButtonIsDisplayed" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.MainTests.verifyAccountButtonIsDisplayed" />
-        <item itemvalue="TestNG.SignUpTests.testContactPreferencesForm" />
-        <item itemvalue="TestNG.SignUpTests.verifyElementsAreDisplayedStep3" />
-        <item itemvalue="TestNG.SignUpTests.testRegistrationStep3" />
         <item itemvalue="TestNG.LoginTests.signInWithEmailNegativeTestCase" />
+        <item itemvalue="TestNG.LoginTests.testSignInValidAccountInfo" />
+        <item itemvalue="TestNG.LoginTests.verifyElementsAreDisplayedOnSignPage" />
+        <item itemvalue="TestNG.MainTests.clickBrowsePopularUSAJobsFooterLinks" />
+        <item itemvalue="TestNG.MainTests.verifyBodyElementsAreDisplayedOnMainPage" />
       </list>
     </recent_temporary>
   </component>
@@ -468,41 +465,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MainTests_verifyMainNavBarElementsAreDisplayed - 2019.09.23 at 11h 40m 59s.xml">
-      <configuration name="MainTests.verifyMainNavBarElementsAreDisplayed" configurationId="TestNG" />
+    <history-entry file="MainTests_verifyBodyElementsAreDisplayedOnMainPage - 2019.09.30 at 15h 44m 57s.xml">
+      <configuration name="MainTests.verifyBodyElementsAreDisplayedOnMainPage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginTests_signInWithEmailNegativeTestCase - 2019.09.23 at 11h 55m 54s.xml">
+    <history-entry file="MainTests_verifyBodyElementsAreDisplayedOnMainPage - 2019.09.30 at 15h 50m 36s.xml">
+      <configuration name="MainTests.verifyBodyElementsAreDisplayedOnMainPage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MainTests_clickBrowsePopularUSAJobsFooterLinks - 2019.09.30 at 16h 04m 33s.xml">
+      <configuration name="MainTests.clickBrowsePopularUSAJobsFooterLinks" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTests_verifyElementsAreDisplayedOnSignPage - 2019.09.30 at 16h 08m 33s.xml">
+      <configuration name="LoginTests.verifyElementsAreDisplayedOnSignPage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTests_testSignInValidAccountInfo - 2019.09.30 at 16h 09m 32s.xml">
+      <configuration name="LoginTests.testSignInValidAccountInfo" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTests_testSignInValidAccountInfo - 2019.09.30 at 16h 12m 07s.xml">
+      <configuration name="LoginTests.testSignInValidAccountInfo" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTests_signInWithEmailNegativeTestCase - 2019.09.30 at 16h 13m 20s.xml">
       <configuration name="LoginTests.signInWithEmailNegativeTestCase" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SignUpTests_testRegistrationStep3 - 2019.09.23 at 11h 56m 41s.xml">
-      <configuration name="SignUpTests.testRegistrationStep3" configurationId="TestNG" />
+    <history-entry file="LoginTests_signInWithEmailNegativeTestCase - 2019.09.30 at 16h 18m 45s.xml">
+      <configuration name="LoginTests.signInWithEmailNegativeTestCase" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SignUpTests_testRegistrationStep3 - 2019.09.23 at 11h 57m 12s.xml">
-      <configuration name="SignUpTests.testRegistrationStep3" configurationId="TestNG" />
+    <history-entry file="LoginTests_testSignInValidAccountInfo - 2019.09.30 at 16h 31m 08s.xml">
+      <configuration name="LoginTests.testSignInValidAccountInfo" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SignUpTests_testRegistrationStep3 - 2019.09.23 at 11h 58m 24s.xml">
-      <configuration name="SignUpTests.testRegistrationStep3" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SignUpTests_testRegistrationStep3 - 2019.09.23 at 11h 59m 48s.xml">
-      <configuration name="SignUpTests.testRegistrationStep3" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SignUpTests_verifyElementsAreDisplayedStep3 - 2019.09.23 at 12h 00m 22s.xml">
-      <configuration name="SignUpTests.verifyElementsAreDisplayedStep3" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SignUpTests_verifyElementsAreDisplayedStep3 - 2019.09.23 at 12h 01m 38s.xml">
-      <configuration name="SignUpTests.verifyElementsAreDisplayedStep3" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SignUpTests_testContactPreferencesForm - 2019.09.23 at 12h 03m 26s.xml">
-      <configuration name="SignUpTests.testContactPreferencesForm" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MainTests_verifyAccountButtonIsDisplayed - 2019.09.23 at 12h 10m 15s.xml">
-      <configuration name="MainTests.verifyAccountButtonIsDisplayed" configurationId="TestNG" />
+    <history-entry file="LoginTests_signInWithEmailNegativeTestCase - 2019.09.30 at 16h 32m 50s.xml">
+      <configuration name="LoginTests.signInWithEmailNegativeTestCase" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="232" width="1920" height="1057" extended-state="6" />
+    <frame x="1920" y="209" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16773163" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17199148" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -511,13 +509,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32722145" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26375178" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946752" visible="true" weight="0.24012157" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3977433" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="8" side_tool="true" visible="true" weight="0.32908705" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5005325" side_tool="true" weight="0.26326963" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32218844" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -563,7 +561,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/com/monster/ui/MainTests.java</url>
-          <line>139</line>
+          <line>177</line>
           <properties class="com.monster.ui.MainTests">
             <option name="EMULATED" value="true" />
           </properties>
@@ -571,7 +569,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/com/monster/ui/MainTests.java</url>
-          <line>155</line>
+          <line>193</line>
           <properties class="com.monster.ui.MainTests">
             <option name="EMULATED" value="true" />
           </properties>
@@ -603,7 +601,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/com/monster/ui/LoginTests.java</url>
-          <line>161</line>
+          <line>160</line>
           <properties class="com.monster.ui.LoginTests" method="testForgotPassword">
             <option name="EMULATED" value="true" />
           </properties>
@@ -611,11 +609,19 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/com/monster/ui/MainTests.java</url>
-          <line>40</line>
+          <line>41</line>
           <properties class="com.monster.ui.MainTests" method="verifyAccountButtonIsDisplayed">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/monster/ui/MainTests.java</url>
+          <line>18</line>
+          <properties class="com.monster.ui.MainTests" method="verifyMainNavBarElementsAreDisplayed">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/monster/ui/SignUpPage.java</url>
@@ -637,7 +643,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/monster/ui/LoginTests.java</url>
-          <line>82</line>
+          <line>81</line>
           <properties />
           <option name="timeStamp" value="18" />
         </line-breakpoint>
@@ -649,7 +655,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/monster/ui/MainTests.java</url>
-          <line>108</line>
+          <line>112</line>
           <properties />
           <option name="timeStamp" value="21" />
         </line-breakpoint>
@@ -743,16 +749,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/monster/ui/DataProviders.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1560">
-          <caret line="108" selection-start-line="108" selection-end-line="108" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/monster/ui/Conditions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
@@ -774,13 +770,6 @@
             <element signature="e#1515#1516#0" expanded="true" />
             <element signature="e#1599#1600#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/monster/ui/Data.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="31" column="54" lean-forward="true" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
         </state>
       </provider>
     </entry>
@@ -824,20 +813,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/monster/ui/LoginPage.java">
+    <entry file="file://$USER_HOME$/OneDrive - Monster_AD/MonsterGitHub/TestMonsterSelenium/src/main/java/Locators.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/monster/ui/Locators.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="1275">
+          <caret line="85" column="10" selection-start-line="85" selection-start-column="10" selection-end-line="85" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -858,16 +838,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/monster/ui/SignUpPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/monster/ui/SignUpTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1650">
@@ -878,20 +848,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/OneDrive - Monster_AD/MonsterGitHub/TestMonsterSelenium/src/main/java/Locators.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/monster/ui/Locators.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="85" column="10" lean-forward="true" selection-start-line="85" selection-start-column="10" selection-end-line="85" selection-end-column="10" />
+        <state relative-caret-position="360">
+          <caret line="28" column="102" selection-start-line="28" selection-start-column="102" selection-end-line="28" selection-end-column="102" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/monster/ui/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
+        <state relative-caret-position="210">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/monster/ui/Data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="25" column="67" lean-forward="true" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/monster/ui/MainTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="151" selection-start-line="151" selection-end-line="151" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/monster/ui/DataProviders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="73" column="24" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/monster/ui/SignUpPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-351">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/monster/ui/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -900,26 +914,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/monster/ui/LoginTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        <state relative-caret-position="468">
+          <caret line="72" column="95" selection-start-line="72" selection-start-column="95" selection-end-line="72" selection-end-column="95" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/monster/ui/MainTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="56" lean-forward="true" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#6236#6237#0" expanded="true" />
-            <element signature="e#6289#6290#0" expanded="true" />
-            <element signature="e#6335#6336#0" expanded="true" />
-            <element signature="e#6384#6385#0" expanded="true" />
-            <element signature="e#6575#6576#0" expanded="true" />
-            <element signature="e#6620#6621#0" expanded="true" />
           </folding>
         </state>
       </provider>

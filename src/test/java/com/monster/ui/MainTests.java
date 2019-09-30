@@ -1,4 +1,5 @@
 package com.monster.ui;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.Point;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -40,18 +41,23 @@ public class MainTests extends BaseUI {
     @Test
     public void verifyAccountButtonIsDisplayed(){
         driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
-        driver.manage().window().setPosition(new Point (-2000, 0));
-        wait.until (ExpectedConditions.elementToBeClickable (Locators.DROPDOWN_ACCOUNT));
-        driver.findElement (Locators.DROPDOWN_ACCOUNT).click ();
+        Dimension d = new Dimension (300,300);
+        driver.manage ().window ().setSize (d);
+        wait.until (ExpectedConditions.visibilityOf (driver.findElement (Locators.BUTTON_ACCOUNT_TOP)));
+        driver.findElement (Locators.BUTTON_ACCOUNT_TOP).click ();
+    }
+
+    @Test
+    public void verifyTopNavigationElementsAreDisplayed(){
         wait.until (ExpectedConditions.elementToBeClickable (Locators.BUTTON_LOGIN_TOP_NAV_BAR));
         wait.until (ExpectedConditions.elementToBeClickable (Locators.BUTTON_SIGN_UP_TOP_NAV_BAR));
-
-
-
-
+        wait.until (ExpectedConditions.elementToBeClickable (Locators.BUTTON_POST_JOBS_FIND_TALENTS));
     }
-@Test
-public void verifyMostPopularJobsDropdownMenu(){
+
+
+
+    @Test
+    public void verifyMostPopularJobsDropdownMenu(){
     driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
     driver.findElement (Locators.DROPDOWN_FIND_JOBS).click ();
     wait.until (ExpectedConditions.elementToBeClickable (Locators.DROPDOWN_MOST_POPULAR_JOBS));
@@ -102,10 +108,8 @@ public void verifyMostPopularJobsDropdownMenu(){
 
     }
 
-
-
     @Test
-    public void smokeTestFooter() {
+    public void clickBottomFooterLinks() {
         mainPage.scrollToBottomOfPage ();
         mainPage.javaWait (1000);
         List<WebElement> footer = driver.findElements (Locators.FOOTER_BUTTONS);
@@ -114,6 +118,40 @@ public void verifyMostPopularJobsDropdownMenu(){
             driver.get (Data.mainUrl);
             footer = driver.findElements (Locators.FOOTER_BUTTONS);
         }
+    }
+
+    @Test
+    public void clickBrowsePopularUSAJobsFooterLinks(){
+        mainPage.scrollToBottomOfPage ();
+        mainPage.javaWait (1000);
+        List<WebElement> footerPopularUSAJobs = driver.findElements (Locators.FOOTER_POPULAR_JOBS_LINKS);
+        for (int i = 0; i < footerPopularUSAJobs.size (); i++) {
+            footerPopularUSAJobs.get (i).click ();
+            driver.get (Data.mainUrl);
+            footerPopularUSAJobs = driver.findElements (Locators.FOOTER_POPULAR_JOBS_LINKS);
+        }
+
+    }
+    @Test
+    public void verifyBodyElementsAreDisplayedOnMainPage(){
+
+        wait.until (ExpectedConditions.elementToBeClickable (Locators.SEARCH_TAB_JOBS));
+        driver.findElement (Locators.SEARCH_TAB_JOBS).click ();
+        wait.until (ExpectedConditions.elementToBeClickable (Locators.SEARCH_FOR_JOBS_FIELD));
+        wait.until (ExpectedConditions.elementToBeClickable (Locators.BUTTON_FIND_JOBS));
+
+        wait.until (ExpectedConditions.elementToBeClickable (Locators.SEARCH_TAB_COMPANIES));
+        driver.findElement (Locators.SEARCH_TAB_COMPANIES).click ();
+        wait.until (ExpectedConditions.elementToBeClickable (Locators.SEARCH_FOR_COMPANIES_FIELD));
+        wait.until (ExpectedConditions.elementToBeClickable (Locators.BUTTON_SEARCH_FOR_COMPANIES));
+
+        wait.until (ExpectedConditions.elementToBeClickable (Locators.SEARCH_TAB_ADVICE));
+        driver.findElement (Locators.SEARCH_TAB_ADVICE).click ();
+        wait.until (ExpectedConditions.elementToBeClickable (Locators.SEARCH_FOR_CAREER_ADVICE_FIELD));
+        wait.until (ExpectedConditions.elementToBeClickable (Locators.BUTTON_SEARCH_FOR_CAREER_ADVICE));
+
+        wait.until (ExpectedConditions.elementToBeClickable (Locators.LINK_UPLOAD_RESUME));
+
     }
 
   /*  @Test

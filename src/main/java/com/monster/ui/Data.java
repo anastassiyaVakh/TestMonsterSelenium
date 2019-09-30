@@ -15,8 +15,8 @@ public class Data {
     public static final String expectedUrlUploadResume = "https://www.monster.com/resumes/post-resume2?landedFrom=Header&intcid=skr_navigation_www_post-resume2";
 
     //Sign in data
-    public static final String emailValid = "testqa17@gmail.com";
-    public static final String passwordValid = "Test12345";
+    public static final String emailValid = "0+test890@jobrapp.com";
+    public static final String passwordValid = "test1234";
     public static final String emailAlreadyLinkedToGoogleAccount = "lekakeeler@gmail.com";
     public static final String emailTooManyAttempts = "Test121314@gmail.com";
     public static final String passwordToManyAttempts = "Tair2013!";

@@ -73,8 +73,7 @@ public class LoginTests extends BaseUI {
             Assert.assertTrue (driver.findElement (Locators.ERROR_SOMETHING_IS_INCORRECT).isDisplayed (), " Element is displayed");
             System.out.println ("PASS: Something is wrong with this account");
 
-        } else {
-            System.out.println ("FAIL: User is able to log in with an invalid email or password");
+
         }
     }
 
